@@ -43,6 +43,12 @@ Read more in the [JavaSnipt privacy policy]({% post_url 2021-04-07-javasnipt-pri
 
 JavaSnipt is built from the ground-up as a native Safari extension. It does not support Chrome or Firefox. For those browsers, I would recommend [NoScript](https://noscript.net) for [Chrome](https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/noscript/).
 
+## How it works
+
+JavaSnipt blocks specified website domains from loading any additional JS files. Unless a website puts their JS inline in the HTML, which is uncommon, it cannot use any JavaScript. 
+
+This is the best solution I found since there is no way to disable JavaScript at the browser level per-domain. 
+
 ## Why crabs?
 
 Why not???
