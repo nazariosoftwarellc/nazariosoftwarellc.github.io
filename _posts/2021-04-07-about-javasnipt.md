@@ -42,3 +42,7 @@ Read more in the [JavaSnipt privacy policy]({% post_url 2021-04-07-javasnipt-pri
 ## Other platforms
 
 JavaSnipt is built from the ground-up as a native Safari extension. It does not support Chrome or Firefox. For those browsers, I would recommend [NoScript](https://noscript.net) for [Chrome](https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/noscript/).
+
+## Why crabs?
+
+Why not???
