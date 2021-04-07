@@ -1,7 +1,8 @@
 ---
 layout: post
 heading: Block JavaScript in Safari with JavaSnipt
-tags: javasnipt splash-page
+banner: /assets/img/javasnipt-splash.png
+tags: javasnipt splash
 ---
 
 The web has too many popups and third-party scripts. It wasn't designed to respect your privacy, battery life, data cap or phone-sized screen. Take back control with JavaSnipt. 
