@@ -1,7 +1,7 @@
 ---
 layout: post
 heading: Block JavaScript in Safari with JavaSnipt
-banner: /assets/img/javasnipt-splash.png
+banner: /assets/img/javasnipt-icon.png
 tags: javasnipt splash
 ---
 
@@ -49,6 +49,6 @@ JavaSnipt blocks specified website domains from loading any additional JS files.
 
 This is the best solution I found since there is no way to disable JavaScript at the browser level per-domain. 
 
-## Why crabs?
+## What's with the crab?
 
-Why not???
+That's Snippy, the JavaSnipt mascot. Think of this app as him snipping away the extra `<script>` tags.
