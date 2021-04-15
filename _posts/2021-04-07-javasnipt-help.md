@@ -25,4 +25,10 @@ JavaSnipt for iOS is 100% [SwiftUI](https://developer.apple.com/documentation/sw
 
 **macOS, in JavaSnipt**: Click on the site you wish to remove. Press Cmd-Delete or File → Delete from the menu bar. If you wish to undo this, use Cmd-Z or Edit → Undo. You can select multiple sites for deletion by holding down Shift or Command and clicking on multiple rows.
 
+## Known issues
+
+### JavaSnipt UI extension for macOS allows users to add sites with the JavaSnipt blocker extension disabled
+
+Unfortunately, [macOS Safari extensions cannot tell if a content blocker is enabled](https://stackoverflow.com/questions/50481113/how-to-get-the-stateenabled-disabled-of-safari-content-blocker-app-extension-f). I can personally verify this bug. 
+
 {% include app_store_link.html marginTop=true %}
