@@ -9,6 +9,12 @@ If you need help with JavaSnipt, please send an email describing the exact probl
 
 ## FAQs
 
+### Does JavaSnipt support Apple Silicon natively?
+
+Yes! JavaSnipt is 100% native to iOS and macOS. The Mac app supports Apple Silicon and Intel. 
+
+JavaSnipt for iOS is 100% [SwiftUI](https://developer.apple.com/documentation/swiftui/). The macOS app is half SwiftUI, half [AppKit](https://developer.apple.com/documentation/appkit/).
+
 ### How do I delete a site from JavaSnipt?
 
 **iOS, in Safari:** Visit the site you wish to remove. Tap Share → JavaSnipt. You will see a popup asking if you want to allow or block JavaScript on that website. Tap OK and refresh. 
