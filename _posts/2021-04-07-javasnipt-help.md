@@ -27,8 +27,8 @@ JavaSnipt for iOS is 100% [SwiftUI](https://developer.apple.com/documentation/sw
 
 ## Known issues
 
-### JavaSnipt UI extension for macOS allows users to add sites with the JavaSnipt blocker extension disabled
+### JavaSnipt UI extension for macOS allows users to add sites with the JavaSnipt blocker extension disabled (FB9080144)
 
-Unfortunately, [macOS Safari extensions cannot tell if a content blocker is enabled](https://stackoverflow.com/questions/50481113/how-to-get-the-stateenabled-disabled-of-safari-content-blocker-app-extension-f). I can personally verify this bug. 
+Unfortunately, [macOS Safari extensions cannot tell if a content blocker is enabled](https://stackoverflow.com/questions/50481113/how-to-get-the-stateenabled-disabled-of-safari-content-blocker-app-extension-f). I can personally verify this bug.
 
 {% include app_store_link.html marginTop=true %}
