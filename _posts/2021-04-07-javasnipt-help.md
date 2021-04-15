@@ -18,3 +18,5 @@ If you need help with JavaSnipt, please send an email describing the exact probl
 **macOS, in Safari**: Visit the site you wish to remove. Click the {} icon in the toolbar. Click the button in the dropdown (if the site is currently in JavaSnipt, this button will be green). Click the refresh icon to reload the page. 
 
 **macOS, in JavaSnipt**: Click on the site you wish to remove. Press Cmd-Delete or File → Delete from the menu bar. If you wish to undo this, use Cmd-Z or Edit → Undo. You can select multiple sites for deletion by holding down Shift or Command and clicking on multiple rows.
+
+{% include app_store_link.html marginTop=true %}

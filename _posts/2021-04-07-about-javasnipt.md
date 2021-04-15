@@ -5,6 +5,8 @@ banner: /assets/img/javasnipt-icon.png
 tags: javasnipt splash
 ---
 
+{% include app_store_link.html marginBottom=true %}
+
 The web has too many popups and third-party scripts. It wasn't designed to respect your privacy, battery life, data cap or phone-sized screen. Take back control with JavaSnipt. 
 
 This app blocks JavaScript on any website. That means no more:
@@ -52,3 +54,5 @@ This is the best solution I found since there is no way to disable JavaScript at
 ## What's with the crab?
 
 That's Snippy, the JavaSnipt mascot. Think of this app as him snipping away the extra `<script>` tags.
+
+{% include app_store_link.html marginTop=true %}
