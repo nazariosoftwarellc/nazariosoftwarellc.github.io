@@ -9,6 +9,10 @@ If you need help with JavaSnipt, please send an email describing the exact probl
 
 ## FAQs
 
+### Can I block specific scripts? 
+
+As of now, no. This is the most commonly requested feature. Apple offers a pretty limited set of options for Safari content blockers, so I will investigate to see whether this is possible.
+
 ### Does JavaSnipt support Apple Silicon natively?
 
 Yes! JavaSnipt is 100% native to iOS and macOS. The Mac app supports Apple Silicon and Intel. 
