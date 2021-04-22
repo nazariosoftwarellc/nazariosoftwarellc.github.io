@@ -13,11 +13,15 @@ If you need help with JavaSnipt, please send an email describing the exact probl
 
 As of now, no. This is the most commonly requested feature. Apple offers a pretty limited set of options for Safari content blockers, so I will investigate to see whether this is possible.
 
-### Does JavaSnipt support Apple Silicon natively?
+### How do I enable the JavaSnipt content blocker?
 
-Yes! JavaSnipt is 100% native to iOS and macOS. The Mac app supports Apple Silicon and Intel. 
+Open the iOS Settings app. Tap Safari → Content Blockers and tap the toggle to the right of JavaSnipt. Now JavaSnipt can block any site you add to it.
 
-JavaSnipt for iOS is 100% [SwiftUI](https://developer.apple.com/documentation/swiftui/). The macOS app is half SwiftUI, half [AppKit](https://developer.apple.com/documentation/appkit/).
+### How do I enable iCloud to sync between my devices?
+
+You must be signed into iCloud on the device using JavaSnipt in order to sync your targeted sites between devices. Use [Apple's walkthrough](https://support.apple.com/en-us/HT208681) to set up iCloud.
+
+If JavaSnipt cannot store your sites in iCloud, it will store them locally. 
 
 ### How do I delete a site from JavaSnipt?
 
