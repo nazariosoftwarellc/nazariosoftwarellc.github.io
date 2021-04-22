@@ -31,6 +31,10 @@ JavaSnipt for iOS is 100% [SwiftUI](https://developer.apple.com/documentation/sw
 
 ## Known issues
 
+### JavaSnipt icon does not appear in iOS share menu
+
+This [appears to be an iOS bug](https://developer.apple.com/forums/thread/662671). I can see it happen on iOS 14.4 in the Simulator but cannot fix it. My workaround is to close and re-open the share sheet - JavaSnipt appears the second time. 
+
 ### JavaSnipt UI extension for macOS allows users to add sites with the JavaSnipt blocker extension disabled (FB9080144)
 
 Unfortunately, [macOS Safari extensions cannot tell if a content blocker is enabled](https://stackoverflow.com/questions/50481113/how-to-get-the-stateenabled-disabled-of-safari-content-blocker-app-extension-f). I can personally verify this bug.
