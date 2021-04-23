@@ -21,7 +21,7 @@ Open the iOS Settings app. Tap Safari → Content Blockers and tap the toggle to
 
 You must be signed into iCloud on the device using JavaSnipt in order to sync your targeted sites between devices. Use [Apple's walkthrough](https://support.apple.com/en-us/HT208681) to set up iCloud.
 
-If JavaSnipt cannot store your sites in iCloud, it will store them locally. 
+If JavaSnipt cannot store your sites in iCloud, it will store them locally. When you sign into iCloud, JavaSnipt will copy your locally stored sites into iCloud and stop tracking sites locally. 
 
 ### How do I delete a site from JavaSnipt?
 
