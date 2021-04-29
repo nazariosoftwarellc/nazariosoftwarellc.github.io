@@ -37,9 +37,12 @@ If JavaSnipt cannot store your sites in iCloud, it will store them locally. When
 
 ### JavaSnipt icon does not appear in iOS share menu
 
-This [appears to be an iOS bug](https://developer.apple.com/forums/thread/662671). I can see it happen on iOS 14.4 in the Simulator but cannot fix it. My workaround is to close and re-open the share sheet - JavaSnipt appears the second time. 
+This [appears to be an iOS bug](https://developer.apple.com/forums/thread/662671), something Apple has to fix. Try these fixes in order:
 
-If that does not work, reboot your phone (😖 I know, I know) and the JavaSnipt share icon should appear.
+- Close and re-open the share sheet
+- Update to the latest version of JavaSnipt and your device to iOS / iPadOS 14.1 or higher
+- Reboot your phone (😖 I know, I know)
+- [Email me for help](mailto:nazariosoftwarellc@gmail.com)
 
 ### JavaSnipt UI extension for macOS allows users to add sites with the JavaSnipt blocker extension disabled (FB9080144)
 
