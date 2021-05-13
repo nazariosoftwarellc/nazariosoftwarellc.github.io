@@ -21,7 +21,7 @@ Beautiful New Tabs contains no in-app purchases. Buy once and own forever.
 
 ## Privacy
 
-Beautiful New Tabs caches your location locally on your computer so it can display the correct weather when you open a new tab. It does not store or share this information with any third party. 
+Beautiful New Tabs caches whatever you put into the weather search field locally on your computer so it can display the correct weather when you open a new tab. It does not store or share this information with any third party. 
 
 This app does not use any:
 
