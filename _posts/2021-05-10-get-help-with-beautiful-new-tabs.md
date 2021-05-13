@@ -22,3 +22,15 @@ I also recommend removing the BNT toolbar icon.
 - Select Customize Toolbar
 - Click and drag the BNT toolbar icon up and away from the toolbar
 - Release your mouse button and the BNT icon should puff away
+
+## How to change the weather location
+
+Type your location in the search field in the weather box. Press Enter or click the checkmark to save.
+
+## How to change the weather display unit
+
+Click the Celsius or Fahrenheit temperature to highlight that format.
+
+## How to change what images are displayed
+
+Type some image query ("nature", minus quotes) in the search field in the lower left. Press Enter or click the checkmark to save. Give it a minute to load the new image - changing your image query means Beautiful New Tabs can't use its existing image cache.
