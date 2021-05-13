@@ -23,17 +23,24 @@ Code used in the app is included with BNT's code and will run on your device. Fo
 
 Then there's code used to build the app, which is *not* included with BNT. It only runs on my computer when I make a new version of the app.
 
-Third-party code included in BNT:
+Third-party code included in BNT (runs on your device):
 
 - None
 
-Third-party code used to build BNT:
+Third-party code used to build BNT (does *not* run on your device):
 
-- [Svelte](https://svelte.dev)
-- [esbuild](https://esbuild.github.io)
-- [TypeScript](https://www.typescriptlang.org)
-- [@tsconfig/svelte](https://www.npmjs.com/package/@tsconfig/svelte)
-- [esbuild-svelte](https://www.npmjs.com/package/esbuild-svelte)
-- [svelte-check](https://www.npmjs.com/package/svelte-check)
-- [svelte-preprocess](https://www.npmjs.com/package/svelte-preprocess)
-- [tslib](https://www.npmjs.com/package/tslib)
+- [Svelte](https://svelte.dev): A framework for building fast, lightweight web apps.
+- [TypeScript](https://www.typescriptlang.org): A variant of JavaScript. Helps you write safer, less crash-y code.
+- [@tsconfig/svelte](https://www.npmjs.com/package/@tsconfig/svelte): Basic TypeScript configuration for Svelte.
+- [tslib](https://www.npmjs.com/package/tslib): Library of TypeScript helper functions.
+- [esbuild](https://esbuild.github.io): Super-fast compiler for turning Svelte and TypeScript into code Safari understands.
+- [esbuild-svelte](https://www.npmjs.com/package/esbuild-svelte): An esbuild plugin that lets it compile Svelte files.
+- [svelte-preprocess](https://www.npmjs.com/package/svelte-preprocess): A plugin that lets Svelte understand TypeScript.
+- [eslint](https://www.npmjs.com/package/eslint): Code-quality checker.
+- [eslint-config-google](https://www.npmjs.com/package/eslint-config-google): Tells eslint to make my code conform to Google's house style.
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): Stops eslint from conflicting with prettier.
+- [eslint-plugin-svelte3](https://www.npmjs.com/package/eslint-plugin-svelte3): Lets eslint understand Svelte components.
+- [prettier](https://www.npmjs.com/package/prettier): Automatically formats code to look nice.
+- [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): A plugin that lets prettier understand Svelte.
+
+---
