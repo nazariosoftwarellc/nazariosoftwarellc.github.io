@@ -48,4 +48,4 @@ This [appears to be an iOS bug](https://developer.apple.com/forums/thread/662671
 
 Unfortunately, [macOS Safari extensions cannot tell if a content blocker is enabled](https://stackoverflow.com/questions/50481113/how-to-get-the-stateenabled-disabled-of-safari-content-blocker-app-extension-f). I can personally verify this bug.
 
-{% include app_store_link.html marginTop=true %}
+{% include app_store_link.html marginTop=true javasnipt=true %}

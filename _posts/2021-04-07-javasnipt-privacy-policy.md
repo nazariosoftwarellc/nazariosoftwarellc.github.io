@@ -14,4 +14,4 @@ The **JavaSnipt UI** macOS extension requires permission to read the webpage con
 
 If you do not wish to enable it, JavaSnipt will still function with just the **JavaSnipt Blocker** extension enabled. You will have to manually add websites in the main JavaSnipt app, however.
 
-{% include app_store_link.html marginTop=true %}
+{% include app_store_link.html marginTop=true javasnipt=true %}
