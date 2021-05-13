@@ -35,3 +35,7 @@ Read more in the [JavaSnipt privacy policy]({% post_url 2021-05-11-beautiful-new
 Beautiful New Tabs is built as a native Safari extension. It does not support Chrome or Firefox. For those browsers, I would recommend [Tabliss](https://tabliss.io) ([Chrome](https://chrome.google.com/webstore/detail/tabliss-a-beautiful-new-t/hipekcciheckooncpjeljhnekcoolahp), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tabliss/?src=external-tabliss.io)).
 
 {% include app_store_link.html marginTop=true bnt=true %}
+
+## Credits
+
+Safari toolbar icon: [Rose by Vectors Market from the Noun Project](https://thenounproject.com/search/?q=rose&i=1928850)
