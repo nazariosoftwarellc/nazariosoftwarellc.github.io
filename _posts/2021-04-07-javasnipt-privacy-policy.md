@@ -15,3 +15,21 @@ The **JavaSnipt UI** macOS extension requires permission to read the webpage con
 If you do not wish to enable it, JavaSnipt will still function with just the **JavaSnipt Blocker** extension enabled. You will have to manually add websites in the main JavaSnipt app, however.
 
 {% include app_store_link.html marginTop=true javasnipt=true %}
+
+## Source Code Nutrition Label
+
+You shouldn't have to worry JavaSnipt is using some privacy-sucking third-party library. You should know what code goes into your apps.
+
+Generally speaking, there are two kinds of third-party code used by apps: those used inside the app, and those used to build the app. 
+
+Code used in the app is included with JavaSnipt's code and will run on your device. For example, if an app shows ads from Facebook, it might include the Facebook SDK (JavaSnipt does neither).
+
+Then there's code used to build the app, which is *not* included with JavaSnipt. It only runs on my computer when I make a new version of the app.
+
+Third-party code included in JavaSnipt:
+
+- None
+
+Third-party code used to build JavaSnipt:
+
+- None

@@ -13,9 +13,9 @@ BNT uses your provided location to load weather data. This information is cached
 
 BNT also stores your image search query locally on your computer so new images can be loaded when you open a new tab. This is also not stored or logged anywhere else.
 
-## Code Nutrition Label
+## Source Code Nutrition Label
 
-You shouldn't have to worry Beautiful New Tabs is using some privacy-sucking SDK. You should know what code goes into your apps.
+You shouldn't have to worry Beautiful New Tabs is using some privacy-sucking third-party library. You should know what code goes into your apps.
 
 Generally speaking, there are two kinds of third-party code used by apps: those used inside the app, and those used to build the app. 
 
