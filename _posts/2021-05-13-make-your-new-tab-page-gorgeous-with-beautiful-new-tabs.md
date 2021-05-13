@@ -1,7 +1,7 @@
 ---
 layout: post
 heading: Make your new tab page gorgeous with Beautiful New Tabs
-banner: /assets/img/bnt-icon.png
+banner: /assets/img/bnt-1.png
 tags: bnt splash
 ---
 
@@ -9,9 +9,11 @@ tags: bnt splash
 
 Why not look at a beautiful photograph when you open a new tab? 
 
-Beautiful New Tabs is an extension for Safari that replaces your new tab page with a gorgeous wallpaper. Set your image query ("nature" by default) and see random images pulled from Unsplash, a repository for great photographs. 
+Beautiful New Tabs is an extension for Safari that replaces your new tab page with a gorgeous wallpaper. Images are pulled from [Unsplash](https://unsplash.com), a repository for beautiful photographs. Images can be anything you want - nature, cats, lizards or fruit, anything.
 
-Beautiful New Tabs also shows the weather for your location. It's a simple, beautiful way to open new tabs.
+Beautiful New Tabs also shows the weather for your location. The interface for the weather and the rest of the page responds to dark and light mode, looking good on any theme.
+
+Try a simple, beautiful way to open new tabs.
 
 ## Purchasing
 
