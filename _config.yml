@@ -9,7 +9,7 @@ github_username:  nazariosoftwarellc
 google_analytics: G-9VDRKH28JY
 
 # Build settings
-remote_theme: jeffreytse/jekyll-theme-yat
+remote_theme: nazariosoftwarellc/jekyll-theme-yat
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
