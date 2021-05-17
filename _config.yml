@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nazariosoftware.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NazarioSoftware
 github_username:  nazariosoftwarellc
+google_analytics: G-9VDRKH28JY
 
 # Build settings
 remote_theme: jeffreytse/jekyll-theme-yat
