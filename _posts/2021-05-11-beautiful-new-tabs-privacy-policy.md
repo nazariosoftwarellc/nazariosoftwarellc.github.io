@@ -33,14 +33,16 @@ Third-party code used to build BNT (does *not* run on your device):
 - [TypeScript](https://www.typescriptlang.org): A variant of JavaScript. Helps you write safer, less crash-y code.
 - [@tsconfig/svelte](https://www.npmjs.com/package/@tsconfig/svelte): Basic TypeScript configuration for Svelte.
 - [tslib](https://www.npmjs.com/package/tslib): Library of TypeScript helper functions.
-- [esbuild](https://esbuild.github.io): Super-fast compiler for turning Svelte and TypeScript into code Safari understands.
-- [esbuild-svelte](https://www.npmjs.com/package/esbuild-svelte): An esbuild plugin that lets it compile Svelte files.
-- [svelte-preprocess](https://www.npmjs.com/package/svelte-preprocess): A plugin that lets Svelte understand TypeScript.
-- [eslint](https://www.npmjs.com/package/eslint): Code-quality checker.
+- [esbuild](https://esbuild.github.io): Super-fast compiler that turns Svelte and TypeScript into code Safari understands.
+- [esbuild-svelte](https://www.npmjs.com/package/esbuild-svelte): Lets esbuild compile Svelte files.
+- [svelte-preprocess](https://www.npmjs.com/package/svelte-preprocess): Lets Svelte understand TypeScript.
+- [eslint](https://www.npmjs.com/package/eslint): Code-quality checker for TypeScript.
 - [eslint-config-google](https://www.npmjs.com/package/eslint-config-google): Tells eslint to make my code conform to Google's house style.
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): Stops eslint from conflicting with prettier.
 - [eslint-plugin-svelte3](https://www.npmjs.com/package/eslint-plugin-svelte3): Lets eslint understand Svelte components.
-- [prettier](https://www.npmjs.com/package/prettier): Automatically formats code to look nice.
-- [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): A plugin that lets prettier understand Svelte.
+- [prettier](https://www.npmjs.com/package/prettier): Automatically formats TypeScript to look nice.
+- [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): Lets prettier understand Svelte.
+- [SwiftLint](https://github.com/realm/SwiftLint): Code-quality checker for Swift.
+- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat): Automatically formats Swift to look nice.
 
 ---
