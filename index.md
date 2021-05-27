@@ -20,4 +20,6 @@ banner: 'assets/img/site-splash.png'
   %}
 </div>
 
-<hr style="margin: 2rem 0;">
+<p style="text-align: center;">
+  <a href="{% post_url 2021-01-08-about-nazario-software %}">About Us</a>
+</p>
