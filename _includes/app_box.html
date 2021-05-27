@@ -1,0 +1,14 @@
+<div class="app-box" style="border: 1px solid gray; box-shadow: 5px 5px 10px gray; margin: 2rem; display: flex; width: 100%;">
+  <div style="margin-right: 1rem;">
+    <img src="/assets/img/{{ include.image }}" alt="{{ include.name }} icon"
+         style="max-width: 7rem; height: auto; padding: 1rem; margin: auto;">
+  </div>
+  <div style="padding: 1rem;">
+    <h2>
+      <a href="{% link _posts/{{ include.postName }}.md %}" title="{{ include.name }}">
+        {{ include.name }}
+      </a>
+    </h2>
+    <p>{{ include.tagline }}</p>
+  </div>
+</div>
