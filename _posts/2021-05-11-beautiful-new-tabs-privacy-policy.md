@@ -33,6 +33,8 @@ This code runs on your device.
 
 This code does *not* run on your device.
 
+**The app**
+
 - [Svelte](https://svelte.dev): A framework for building fast, lightweight web apps.
 - [TypeScript](https://www.typescriptlang.org): A variant of JavaScript. Helps you write safer, less crash-y code.
 - [@tsconfig/svelte](https://www.npmjs.com/package/@tsconfig/svelte): Basic TypeScript configuration for Svelte.
@@ -40,6 +42,9 @@ This code does *not* run on your device.
 - [esbuild](https://esbuild.github.io): Super-fast compiler that turns Svelte and TypeScript into code Safari understands.
 - [esbuild-svelte](https://www.npmjs.com/package/esbuild-svelte): Lets esbuild compile Svelte files.
 - [svelte-preprocess](https://www.npmjs.com/package/svelte-preprocess): Lets Svelte understand TypeScript.
+
+**Code quality**
+
 - [eslint](https://www.npmjs.com/package/eslint): Code-quality checker for TypeScript.
 - [eslint-config-google](https://www.npmjs.com/package/eslint-config-google): Tells eslint to make my code conform to Google's house style.
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): Stops eslint from conflicting with prettier.
@@ -48,6 +53,9 @@ This code does *not* run on your device.
 - [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): Lets prettier understand Svelte.
 - [SwiftLint](https://github.com/realm/SwiftLint): Code-quality checker for Swift.
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat): Automatically formats Swift to look nice.
+
+**Testing**
+
 - [Jest](https://jestjs.io): Tests the parts that make up the new tab page.
 - [ts-jest](https://www.npmjs.com/package/ts-jest): Lets me write tests in TypeScript instead of JavaScript.
 - [@types/jest](https://www.npmjs.com/package/@types/jest): Lets TypeScript understand Jest.
