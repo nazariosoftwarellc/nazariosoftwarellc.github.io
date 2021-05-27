@@ -21,13 +21,17 @@ Generally speaking, there are two kinds of third-party code used by apps: those 
 
 Code used in the app is included with BNT's code and will run on your device. For example, if an app shows ads from Facebook, it might include the Facebook SDK (BNT does neither).
 
-Then there's code used to build the app, which is *not* included with BNT. It only runs on my computer when I make a new version of the app.
+Then there's code used to build the app, which is *not* included with BNT. It only runs on my computer when I make a new version of the app. I can't list every piece of software that goes into building BNT (what am I going to do, list macOS?), but I can list important third-party code that directly helps build the app. 
 
-Third-party code included in BNT (runs on your device):
+### Third-party code included in BNT
+
+This code runs on your device.
 
 - None
 
-Third-party code used to build BNT (does *not* run on your device):
+### Third-party code used to build BNT 
+
+This code does *not* run on your device.
 
 - [Svelte](https://svelte.dev): A framework for building fast, lightweight web apps.
 - [TypeScript](https://www.typescriptlang.org): A variant of JavaScript. Helps you write safer, less crash-y code.
@@ -44,5 +48,12 @@ Third-party code used to build BNT (does *not* run on your device):
 - [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): Lets prettier understand Svelte.
 - [SwiftLint](https://github.com/realm/SwiftLint): Code-quality checker for Swift.
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat): Automatically formats Swift to look nice.
+- [Jest](https://jestjs.io): Tests the parts that make up the new tab page.
+- [ts-jest](https://www.npmjs.com/package/ts-jest): Lets me write tests in TypeScript instead of JavaScript.
+- [@types/jest](https://www.npmjs.com/package/@types/jest): Lets TypeScript understand Jest.
+- [svelte-jester](https://www.npmjs.com/package/svelte-jester): Lets Jest understand Svelte components.
+- [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom): Helps me pick out parts of the page when writing tests.
+- [@testing-library/svelte](https://www.npmjs.com/package/@testing-library/svelte): Helps instantiate Svelte components in tests.
+- [@testing-library/user-event](https://www.npmjs.com/package/@testing-library/user-event): Simulates user actions in tests.
 
 ---
