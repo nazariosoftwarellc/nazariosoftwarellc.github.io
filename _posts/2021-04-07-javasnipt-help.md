@@ -15,7 +15,9 @@ As of now, no. This is the most commonly requested feature. Apple offers a prett
 
 ### How do I enable the JavaSnipt content blocker?
 
-Open the iOS Settings app. Tap Safari → Content Blockers and tap the toggle to the right of JavaSnipt. Now JavaSnipt can block any site you add to it.
+**macOS**: Open the JavaSnipt app. Click the red ! and click the button in the popover to open Safari's extension settings. Check the box next to "JavaSnipt Blocker."
+
+**iOS**: Open the iOS Settings app. Tap Safari → Content Blockers and tap the toggle to the right of JavaSnipt.
 
 ### How do I enable iCloud to sync between my devices?
 
@@ -32,6 +34,10 @@ If JavaSnipt cannot store your sites in iCloud, it will store them locally. When
 **macOS, in Safari**: Visit the site you wish to remove. Click the {} icon in the toolbar. Click the button in the dropdown (if the site is currently in JavaSnipt, this button will be green). Click the refresh icon to reload the page. 
 
 **macOS, in JavaSnipt**: Click on the site you wish to remove. Press Cmd-Delete or File → Delete from the menu bar. If you wish to undo this, use Cmd-Z or Edit → Undo. You can select multiple sites for deletion by holding down Shift or Command and clicking on multiple rows.
+
+### Can you support older OSes?
+
+JavaSnipt uses SwiftUI features introduced in macOS Big Sur and iOS 13, respectively. My AppKit and UIKit skills are not good enough to backport them to older OSes 😅.
 
 ## Known issues
 

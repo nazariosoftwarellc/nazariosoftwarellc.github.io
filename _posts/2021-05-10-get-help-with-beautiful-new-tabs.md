@@ -34,3 +34,9 @@ Click the Celsius or Fahrenheit temperature to highlight that format.
 ## How to change what images are displayed
 
 Type some image query ("nature", minus quotes) in the search field in the lower left. Press Enter or click the checkmark to save. Give it a minute to load the new image - changing your image query means Beautiful New Tabs can't use its existing image cache.
+
+## FAQ
+
+### Can you support older OSes?
+
+Beautiful New Tabs uses features introduced in macOS Big Sur and iOS 14, respectively. My AppKit and UIKit skills are not good enough to backport them to older OSes 😅.
