@@ -9,6 +9,16 @@ If you need help with JavaSnipt, please send an email describing the exact probl
 
 ## FAQs
 
+### This weird bit of JS snuck through
+
+Websites can run JavaScript one of two ways  They can build it into the page or load it in an external file. Almost everyone loads their JS externally, and that is what JavaSnipt blocks. Unfortunately, Apple does not let third-party content blockers block JS built into the page 😩. 
+
+The good news is again, 99.99999% of sites load their JS in blockable external files. Also, the worst JavaScript abuses, like autoplaying video and obnoxious ads, are external files.  
+
+JavaScript runs in Safari… but adding a site to JavaSnipt means the browser will (almost) never get any JS to run. 
+
+I use JavaSnipt myself every day and I promise it really catches 99.99999% of JS.
+
 ### Can I block specific scripts? 
 
 As of now, no. This is the most commonly requested feature. Apple offers a pretty limited set of options for Safari content blockers, so I will investigate to see whether this is possible.
