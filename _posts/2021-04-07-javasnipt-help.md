@@ -66,7 +66,7 @@ This [appears to be an iOS bug](https://developer.apple.com/forums/thread/662671
 - Close and re-open the share sheet
 - Update to the latest version of JavaSnipt and your device to iOS / iPadOS 14.1 or higher
 - Reboot your phone (😖 I know, I know)
-- [Email me for help](mailto:nazariosoftwarellc@gmail.com)
+- [Email me for help](mailto:nazariosoftwarellc+js@gmail.com)
 
 ### JavaSnipt UI extension for macOS allows users to add sites with the JavaSnipt blocker extension disabled (FB9080144)
 
