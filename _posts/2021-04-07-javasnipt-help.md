@@ -49,6 +49,14 @@ If JavaSnipt cannot store your sites in iCloud, it will store them locally. When
 
 JavaSnipt uses SwiftUI features introduced in macOS Big Sur and iOS 13, respectively. My AppKit and UIKit skills are not good enough to backport them to older OSes 😅.
 
+### Can I use this with AppleScript?
+
+Yes!
+
+```applescript
+tell application "JavaSnipt" to add site "example.org"tell application "JavaSnipt" to delete site "example.org"tell application "JavaSnipt" to block JS on targeted sitestell application "JavaSnipt" to allow JS only on targeted sitestell application "JavaSnipt"	set sites to fetch sitesend tellrepeat with site from 1 to length of sites	log siteend repeattell application JavaSnipt to quit
+```
+
 ## Known issues
 
 ### JavaSnipt icon does not appear in iOS share menu
