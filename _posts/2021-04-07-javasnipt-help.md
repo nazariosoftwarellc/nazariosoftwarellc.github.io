@@ -27,7 +27,7 @@ As of now, no. This is the most commonly requested feature. Apple offers a prett
 
 **macOS**: Open the JavaSnipt app. Click the red ! and click the button in the popover to open Safari's extension settings. Check the box next to "JavaSnipt Blocker."
 
-**iOS**: Open the iOS Settings app. Tap Safari → Content Blockers and tap the toggle to the right of JavaSnipt.
+**iOS**: Open the iOS Settings app. Tap Safari → Extensions and tap the toggle to the right of JavaSnipt. If you are on iOS 14 or below, go to iOS Settings → Safari → Content Blockers.
 
 ### How do I enable iCloud to sync between my devices?
 
