@@ -5,7 +5,7 @@ banner: /assets/img/javasnipt-icon.png
 tags: javasnipt help
 ---
 
-If you need help with JavaSnipt, please send an email describing the exact problem and steps that made the problem occur to [nazariosoftwarellc@gmail.com](mailto:nazariosoftware+js@gmail.com).
+If you need help with JavaSnipt, please send an email describing the exact problem and steps that made the problem occur to [nazariosoftwarellc@gmail.com](mailto:nazariosoftwarellc+js@gmail.com).
 
 ## FAQs
 
@@ -54,7 +54,20 @@ JavaSnipt uses SwiftUI features introduced in macOS Big Sur and iOS 13, respecti
 Yes!
 
 ```applescript
-tell application "JavaSnipt" to add site "example.org"tell application "JavaSnipt" to delete site "example.org"tell application "JavaSnipt" to block JS on targeted sitestell application "JavaSnipt" to allow JS only on targeted sitestell application "JavaSnipt"	set sites to fetch sitesend tellrepeat with site from 1 to length of sites	log siteend repeattell application JavaSnipt to quit
+tell application "JavaSnipt" to add site "example.org"
+tell application "JavaSnipt" to delete site "example.org"
+tell application "JavaSnipt" to block JS on targeted sites
+tell application "JavaSnipt" to allow JS only on targeted sites
+
+tell application "JavaSnipt"
+	set sites to fetch sites
+end tell
+
+repeat with site from 1 to length of sites
+	log site
+end repeat
+
+tell application JavaSnipt to quit
 ```
 
 ## Known issues
