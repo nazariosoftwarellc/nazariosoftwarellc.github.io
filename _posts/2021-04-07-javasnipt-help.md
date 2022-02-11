@@ -29,6 +29,12 @@ As of now, no. This is the most commonly requested feature. Apple offers a prett
 
 **iOS**: Open the iOS Settings app. Tap Safari → Extensions and tap the toggle to the right of JavaSnipt. If you are on iOS 14 or below, go to iOS Settings → Safari → Content Blockers.
 
+### Can I block JavaScript on all sites *except* the ones I want?
+
+Yes! Open the JavaSnipt app and tap "Allow These." JavaScript will not run on any site except those listed in JavaSnipt.
+
+If you tap "Block These," JavaSnipt will block JS on the listed sites. 
+
 ### How do I enable iCloud to sync between my devices?
 
 You must be signed into iCloud on the device using JavaSnipt in order to sync your targeted sites between devices. Use [Apple's walkthrough](https://support.apple.com/en-us/HT208681) to set up iCloud.
