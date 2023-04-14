@@ -4,8 +4,6 @@ heading: Log in seamlessly with Autofill Email Codes
 tags: aec splash
 ---
 
-{% include app_store_link.html marginBottom=true %}
-
 Most websites let you log in with just a password, but not all of them. Some websites email you a code you have to use to log in. 
 
 **Autofill Email Codes** is a simple, powerful Safari extension that makes email codes easy. It checks your Gmail and displays a list of possible login codes, with buttons for you to quickly copy or autofill them. 
@@ -31,5 +29,3 @@ See the [full privacy policy]({% post_url 2023-04-14-autofill-email-codes-privac
 ## Other platforms
 
 Autofill Email Codes is a native Safari extension. Chrome, Firefox and Edge support is planned in the future. 
-
-{% include app_store_link.html marginTop=true bnt=true %}
