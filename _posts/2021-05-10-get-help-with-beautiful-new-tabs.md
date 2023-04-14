@@ -29,9 +29,9 @@ Beautiful New Tabs uses features introduced in macOS Big Sur and iOS 14, respect
 
 ### How to enable Beautiful New Tabs
 
-- Download Beautiful New Tabs from the App Store
+- [Download Beautiful New Tabs from the App Store](https://apps.apple.com/us/app/beautiful-new-tabs/id1567068235)
 - Open Safari
-- On iPhone, Tap **(...)**, then **Extensions**. On iPad, tap the puzzle piece icon in the toolbar.
+- Tap **aA**, then **Manage Extensions**
 - Enable the toggle next to Beautiful New Tabs
 - Confirm in the popup you want to use it for new tabs
 - Done!
@@ -46,7 +46,7 @@ Beautiful New Tabs uses features introduced in macOS Big Sur and iOS 14, respect
 
 ### How to enable Beautiful New Tabs
 
-- Download Beautiful New Tabs from the Mac App Store
+- [Download Beautiful New Tabs from the Mac App Store](https://apps.apple.com/us/app/beautiful-new-tabs/id1567068235)
 - Open Beautiful New Tabs and click the center button to open Safari preferences
 - Check the box next to Beautiful New Tabs and click "Use for New Windows and Tabs" in the popup
 - Done!
