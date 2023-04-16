@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Get help with Autofill Email Codes
+banner: /assets/img/aec-banner.png
 tags: aec help
 ---
 

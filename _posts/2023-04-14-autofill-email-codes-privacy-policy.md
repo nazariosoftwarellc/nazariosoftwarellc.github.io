@@ -1,6 +1,7 @@
 ---
 layout: post
 heading: Autofill Email Codes privacy policy
+banner: /assets/img/aec-banner.png
 tags: aec privacy-policy
 ---
 

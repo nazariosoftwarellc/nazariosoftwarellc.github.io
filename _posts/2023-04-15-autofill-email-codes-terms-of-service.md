@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Autofill Email Codes terms of service
+banner: /assets/img/aec-banner.png
 tags: aec tos
 ---
 

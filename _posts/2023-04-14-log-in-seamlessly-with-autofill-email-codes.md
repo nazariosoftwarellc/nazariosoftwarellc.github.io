@@ -1,6 +1,7 @@
 ---
 layout: post
 heading: Log in seamlessly with Autofill Email Codes
+banner: /assets/img/aec-banner.png
 tags: aec splash
 ---
 
