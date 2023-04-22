@@ -17,6 +17,8 @@ When you grant AEC permission to access your email, it stores an access token in
 * It is only used to check your emails for login codes.
 * It is never shared. 
 
+The app's use and transfer of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. 
+
 {% include nutrition_label_explanation.html name="Autofill Email Codes" shortName="AEC" %}
 
 ### Third-party code included in AEC
@@ -39,3 +41,7 @@ This code does *not* run on your device.
 - [TypeScript](https://www.typescriptlang.org): A variant of JavaScript. Helps me write safer, less crash-y code.
 - [esbuild](https://esbuild.github.io): Super-fast compiler that turns React and TypeScript into code Safari understands.
 - [prettier](https://www.npmjs.com/package/prettier): Automatically formats my code to look nice.
+
+### Icons
+
+* Toolbar envelope icon by Ralf Schmitzer from the [Noun Project](https://thenounproject.com/browse/icons/term/envelope/)
