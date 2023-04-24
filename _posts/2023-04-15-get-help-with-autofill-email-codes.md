@@ -32,9 +32,16 @@ You may see this message if you log into Autofill Email Codes from a second devi
 - Log in to your email provider and grant the extension access
 - Done!
 
+### How to use Autofill Email Codes
+
+- Open Safari
+- Tap **aA**, then **Autofill Email Codes**
+- Tap **Autofill** or **Copy** next to the code you want
+- Use the code!
+
 ## Mac
 
-### How to enable Beautiful New Tabs
+### How to enable Autofill Email Codes
 
 - Download Autofill Email Codes from the App Store
 - Open Safari and click **Safari** in the menu bar, then **Settings**, then **Extensions**
