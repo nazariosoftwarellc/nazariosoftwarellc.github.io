@@ -13,6 +13,14 @@ If you need help with Autofill Email Codes, please send an email describing the 
 
 The email with your login code may not have arrived yet. Use the **Refresh** button at the bottom of the popup to check again. If you're still not seeing it, forward the email with the code to [nazariosoftwarellc@gmail.com](mailto:nazariosoftwarellc+aec@gmail.com).
 
+### Why does AEC require access to my email account?
+
+The app needs access to your email account so it can look through your inbox for login codes. Those codes are presented to you in a window. No other data from your email account is accessed or used. See the [privacy policy]({% post_url 2023-04-14-autofill-email-codes-privacy-policy %}) for more.
+
+### It says data is already being shared with nazariosoftware.com when I log in with Google
+
+You may see this message if you log into Autofill Email Codes from a second device that does not sync with the first device. It is expected and just means the other device can still access your email. 
+
 ## iOS and iPadOS
 
 ### How to enable Autofill Email Codes
