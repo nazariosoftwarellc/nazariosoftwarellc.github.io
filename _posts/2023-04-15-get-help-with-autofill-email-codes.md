@@ -17,6 +17,25 @@ The email with your login code may not have arrived yet. Use the **Refresh** but
 
 The app needs access to your email account so it can look through your inbox for login codes. Those codes are presented to you in a window. No other data from your email account is accessed or used. See the [privacy policy]({% post_url 2023-04-14-autofill-email-codes-privacy-policy %}) for more.
 
+### How do I grant AEC permission to run on nazariosoftware.com?
+
+The app needs permission to run on this website, nazariosoftware.com, in order to finish the sign-in process for your email account. 
+
+To grant permission, follow these steps:
+
+#### On Mac
+
+- Open Safari
+- In the menu bar, click **Safari**, then **Preferences**
+- Click **Websites**, then scroll down in the left panel and click **Autofill Email Codes**
+- Scroll down in the right panel and next to nazariosoftware.com, select **Allow** from the dropdown
+
+#### On iOS
+
+- Open the Settings app
+- Tap **Safari**, then **Extensions**, then **Autofill Email Codes**
+- Tap **nazariosoftware.com** and select **Allow**
+
 ### It says data is already being shared with nazariosoftware.com when I log in with Google
 
 You may see this message if you log into Autofill Email Codes from a second device that does not sync with the first device. It is expected and just means the other device can still access your email. 
