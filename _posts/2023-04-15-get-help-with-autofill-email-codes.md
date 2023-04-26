@@ -26,14 +26,17 @@ To grant permission, follow these steps:
 #### On Mac
 
 - Open Safari
-- In the menu bar, click **Safari**, then **Preferences**
-- Click **Websites**, then scroll down in the left panel and click **Autofill Email Codes**
+- Click **Safari**, then **Preferences** in the menu bar
+- Click **Websites** in the Preferences window
+- Scroll down in the left panel and click **Autofill Email Codes**
 - Scroll down in the right panel and next to nazariosoftware.com, select **Allow** from the dropdown
 
 #### On iOS
 
 - Open the Settings app
-- Tap **Safari**, then **Extensions**, then **Autofill Email Codes**
+- Tap **Safari**
+- Tap **Extensions**
+- Tap **Autofill Email Codes**
 - Tap **nazariosoftware.com** and select **Allow**
 
 ### It says data is already being shared with nazariosoftware.com when I log in with Google
