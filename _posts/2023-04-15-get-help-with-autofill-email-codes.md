@@ -33,11 +33,12 @@ To grant permission, follow these steps:
 
 #### On iOS
 
-- Open the Settings app
+- Open the **Settings** app
 - Tap **Safari**
 - Tap **Extensions**
 - Tap **Autofill Email Codes**
 - Tap **nazariosoftware.com** and select **Allow**
+- **IMPORTANT**: Tap Back. **Disable** Autofill Email Codes, then **re-enable** it (iOS Safari bug, sorry!)
 
 ### It says data is already being shared with nazariosoftware.com when I log in with Google
 
