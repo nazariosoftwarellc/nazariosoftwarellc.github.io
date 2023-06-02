@@ -7,6 +7,22 @@ tags: mute-chat help
 
 If you run into an issue not listed here, please [send me an email](mailto:nazariosoftwarellc+mc@gmail.com) describing your problem and I will do my best to help.
 
+## Changing settings
+
+To change what chats get muted, open the settings panel for the extension.
+
+- **Chrome**: Right click the Mute Chat speech bubble icon and select "Options"
+- **Safari (Mac)**: Click "Safari" in the menu bar, then "Settings..." > "Extensions" > "Mute Chat for BoardGameArena" > "Preferences"
+- **Safari (iOS)**: Open the Settings app. Go to "Safari" > "Extensions" > "Mute Chat for BoardGameArena" > "Settings"
+
+By default, the extension hides:
+
+- Table chats
+- General chat
+- Notification noises
+
+It shows private chats by default, but you can hide those as well in the settings.
+
 ## FAQ
 
 ### How does it work?
