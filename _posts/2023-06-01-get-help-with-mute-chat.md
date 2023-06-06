@@ -24,6 +24,12 @@ By default, the extension hides:
 
 It shows private chats by default, but you can hide those as well in the settings.
 
+## Running by default on Firefox
+
+By default, Firefox will not allow web extensions to run unless you click them. I highly recommend allowing Mute Chat to run every time you open BGA. 
+
+Right click the speech bubble icon in the toolbar and select "Always allow on boardgamearena.com..."
+
 ## FAQ
 
 ### How does it work?
