@@ -11,9 +11,10 @@ If you run into an issue not listed here, please [send me an email](mailto:nazar
 
 To change what chats get muted, open the settings panel for the extension.
 
-- **Chrome**: Right click the Mute Chat speech bubble icon and select "Options"
+- **Chrome**: Right click the Mute Chat speech bubble toolbar icon and select "Options"
 - **Safari (Mac)**: Click "Safari" in the menu bar, then "Settings..." > "Extensions" > "Mute Chat for BoardGameArena" > "Preferences"
 - **Safari (iOS)**: Open the Settings app. Go to "Safari" > "Extensions" > "Mute Chat for BoardGameArena" > "Settings"
+- **Firefox**: Right click the Mute Chat speech bubble toolbar icon and click "Manage Extension" > "..." > "Preferences"
 
 By default, the extension hides:
 
