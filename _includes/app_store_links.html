@@ -16,6 +16,19 @@
     height: 100%;
     width: auto;
   }
+  @media screen and (max-width: 888px) {
+    .app-store-link-container {
+      flex-direction: column;
+      height: auto;
+      margin-top: 0;
+    }
+    .app-store-link-container a {
+      padding: 1em 0;
+    }
+    .app-store-link-container a img {
+      height: 4em;
+    }
+  }
 </style>
 <div class="app-store-link-container">
   {% if include.safari %}
