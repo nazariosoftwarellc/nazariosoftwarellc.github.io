@@ -18,16 +18,22 @@
   }
 </style>
 <div class="app-store-link-container">
-  <a href="https://apps.apple.com/us/app/mute-chat-for-boardgamearena/id6449945892"
+  {% if include.safari %}
+  <a href="{{ include.safari }}"
      target="_blank" title="Download on the App Store">
     <img src="/assets/img/app-store-badge.svg" alt="Download on the App Store">
   </a>
-  <a href="https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah"
+  {% endif %}
+  {% if include.chrome %}
+  <a href="{{ include.chrome }}"
      target="_blank" title="Download on the Chrome Web Store">
     <img src="/assets/img/chrome-store-badge.png" alt="Download on the Chrome Web Store">
   </a>
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/mute-chat-for-boardgamearena/"
+  {% endif %}
+  {% if include.firefox %}
+  <a href="{{ include.firefox }}"
       target="_blank" title="Download for Firefox">
       <img src="/assets/img/firefox-store-badge.png" alt="Download for Firefox">
   </a>
+  {% endif %}
 </div>

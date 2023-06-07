@@ -9,4 +9,9 @@ tags: mute-chat privacy-policy
 
 The app also does not access your BoardGameArena.com account information. 
 
-{% include mc_links.html marginTop=true %}
+{% include app_store_links.html 
+    chrome="https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah"
+    safari="https://apps.apple.com/us/app/mute-chat-for-boardgamearena/id6449945892"
+    firefox="https://addons.mozilla.org/en-US/firefox/addon/mute-chat-for-boardgamearena/"
+    marginTop=true
+%}
