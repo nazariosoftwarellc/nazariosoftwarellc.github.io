@@ -2,8 +2,15 @@
   .app-store-link-container {
     height: 6rem;
     width: auto;
+    display: flex;
+    justify-content: space-between;
     {% if include.marginTop %}    margin-top: 2rem;    {% endif %};
     {% if include.marginBottom %} margin-bottom: 2rem; {% endif %};
+  }
+  .app-store-link-container a {
+    flex-grow: 1;
+    display: block;
+    padding: 0 1em;
   }
   .app-store-link-container a img {
     height: 100%;
