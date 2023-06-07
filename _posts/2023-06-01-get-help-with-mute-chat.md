@@ -5,6 +5,8 @@ banner: /assets/img/mc-icon.png
 tags: mute-chat help
 ---
 
+{% include mc_links.html marginBottom=true %}
+
 If you run into an issue not listed here, please [send me an email](mailto:nazariosoftwarellc+mc@gmail.com) describing your problem and I will do my best to help.
 
 ## Changing settings
@@ -55,3 +57,5 @@ No. As soon as you stop hiding the chat, you'll see any messages you may have mi
 ### Can I show messages from my friends?
 
 Not at the moment. There is no simple way to filter messages from non-friends. There's probably a creative way to do it, but BGA has strict rules against extracting player information that I don't want to cross.
+
+{% include mc_links.html marginTop=true %}
