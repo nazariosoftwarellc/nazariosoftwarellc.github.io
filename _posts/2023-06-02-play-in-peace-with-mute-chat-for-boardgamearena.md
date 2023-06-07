@@ -14,3 +14,4 @@ Mute Chat does not access your BGA account or track any personal information (se
 ## Download
 
 - [Chrome](https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah)
+- [Safari](https://apps.apple.com/us/app/mute-chat-for-boardgamearena/id6449945892)
