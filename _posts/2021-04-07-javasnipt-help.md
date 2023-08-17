@@ -21,7 +21,7 @@ I use JavaSnipt myself every day and I promise it really catches 99.99999% of JS
 
 ### Can I block specific scripts? 
 
-As of now, no. This is the most commonly requested feature. Apple offers a pretty limited set of options for Safari content blockers, so I will investigate to see whether this is possible.
+Unfortunately, no. Apple offers a pretty limited set of options for Safari content blockers.
 
 ### How do I enable the JavaSnipt content blocker?
 
@@ -31,9 +31,9 @@ As of now, no. This is the most commonly requested feature. Apple offers a prett
 
 ### Can I block JavaScript on all sites *except* the ones I want?
 
-Yes! Open the JavaSnipt app and tap "Allow These." JavaScript will not run on any site except those listed in JavaSnipt.
+Yes! Open the JavaSnipt app and tap "Allow JS on Listed Sites." JavaScript will not run on any site except those listed in JavaSnipt.
 
-If you tap "Block These," JavaSnipt will block JS on the listed sites. 
+If you tap "Block JS on Listed Sites," JavaSnipt will block JS on the listed sites. 
 
 ### How do I enable iCloud to sync between my devices?
 
@@ -77,6 +77,12 @@ tell application JavaSnipt to quit
 ```
 
 ## Known issues
+
+### The JavaSnipt icon doesn't appear in Mac Safari on Sierra
+
+1. Disable the JavaSnipt UI extension
+2. Enable JavaSnipt UI on all sites
+3. Enable JavaSnipt UI
 
 ### JavaSnipt icon does not appear in iOS share menu
 
