@@ -9,11 +9,13 @@
   }
   .app-store-link-container a {
     flex-grow: 1;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 0 1em;
   }
   .app-store-link-container a img {
-    height: 100%;
+    height: auto;
     width: auto;
   }
   @media screen and (max-width: 888px) {
@@ -32,21 +34,30 @@
 </style>
 <div class="app-store-link-container">
   {% if include.safari %}
-  <a href="{{ include.safari }}"
-     target="_blank" title="Download on the App Store">
-    <img src="/assets/img/app-store-badge.svg" alt="Download on the App Store">
+  <a
+    href="{{ include.safari }}"
+    target="_blank"
+    title="Download on the App Store"
+  >
+    <img
+      src="/assets/img/app-store-badge.svg"
+      alt="Download on the App Store"
+    />
   </a>
-  {% endif %}
-  {% if include.chrome %}
-  <a href="{{ include.chrome }}"
-     target="_blank" title="Download on the Chrome Web Store">
-    <img src="/assets/img/chrome-store-badge.png" alt="Download on the Chrome Web Store">
+  {% endif %} {% if include.chrome %}
+  <a
+    href="{{ include.chrome }}"
+    target="_blank"
+    title="Download on the Chrome Web Store"
+  >
+    <img
+      src="/assets/img/chrome-store-badge.png"
+      alt="Download on the Chrome Web Store"
+    />
   </a>
-  {% endif %}
-  {% if include.firefox %}
-  <a href="{{ include.firefox }}"
-      target="_blank" title="Download for Firefox">
-      <img src="/assets/img/firefox-store-badge.png" alt="Download for Firefox">
+  {% endif %} {% if include.firefox %}
+  <a href="{{ include.firefox }}" target="_blank" title="Download for Firefox">
+    <img src="/assets/img/firefox-store-badge.png" alt="Download for Firefox" />
   </a>
   {% endif %}
 </div>
