@@ -9,6 +9,6 @@ Like the name suggests, Nazario Software is run by me, Kyle Nazario!
 
 I create small, high-quality apps I hope will be worth your time and money. 
 
-If you like, [follow me on Twitter](https://twitter.com/kbn_au).
+If you like, [follow me on your choice of social media](https://kylenazario.com/contact).
 
-The photo is my wife Charlotte and I, hiking the Canyonlands National Park (obviously we were a safe distance from everyone when we took this).
+The photo is my spouse Charlotte and I, hiking the Canyonlands National Park. Beautiful place!
