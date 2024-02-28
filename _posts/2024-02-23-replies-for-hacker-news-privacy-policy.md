@@ -5,6 +5,13 @@ banner: /assets/img/rhn-splash.png
 tags: replies-for-hn privacy-policy
 ---
 
+{% include app_store_links.html 
+    chrome="https://chromewebstore.google.com/detail/replies-for-hacker-news/kjoojcgancofjkmknljjcedlkilcbdbb?pli=1"
+    safari="https://apps.apple.com/us/app/replies-for-hacker-news/id6477880820"
+    firefox="https://addons.mozilla.org/en-US/firefox/addon/replies-for-hacker-news/"
+    marginBottom=true
+%}
+
 An email address is required to purchase Replies for Hacker News. **Your email address will not be shared or messaged**. It is used only to identify your purchase if you need to restore it at some point in the future. 
 
 Other than that, Replies for Hacker News collects no information about its users. Comments displayed in the replies page are sourced using public data through the Hacker News API. This extension has no access to any non-public information related to your Hacker News account. 
@@ -13,12 +20,12 @@ This extension also runs only on [https://news.ycombinator.com](https://news.yco
 
 {% include nutrition_label_explanation.html name="Replies for Hacker News" shortName="Replies" %}
 
-### Third-party code included in Mute Chat
+### Third-party code included in RHN
 
 This code runs on your device.
 
-- [detect-browser](https://www.npmjs.com/package/detect-browser): Small tool to check which browser is running Mute Chat so the extension can use the correct icon image. This information is not logged or shared.
-- [webextension-polyfill](https://github.com/mozilla/webextension-polyfill): A Mozilla library that smoothes over differences between web browsers, allowing Mute Chat to run on all of them with the same code.
+- [detect-browser](https://www.npmjs.com/package/detect-browser): Small tool to check which browser is running the app so the extension can use the correct icon image. This information is not logged or shared.
+- [webextension-polyfill](https://github.com/mozilla/webextension-polyfill): A Mozilla library that smoothes over differences between web browsers, allowing the app to run on all of them with the same code.
 - [DayJS](https://day.js.org): A library for formatting dates.
 
 ### Third-party code used to build RHN
@@ -36,3 +43,10 @@ This code does *not* run on your device.
 - [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): Lets prettier understand Svelte.
 - [sass](https://www.npmjs.com/package/sass): Lets me change the format and colors of the extension more easily
 - [zip-local](https://www.npmjs.com/package/zip-local): Packages up files for submission to the Chrome Store.
+
+{% include app_store_links.html 
+    chrome="https://chromewebstore.google.com/detail/replies-for-hacker-news/kjoojcgancofjkmknljjcedlkilcbdbb?pli=1"
+    safari="https://apps.apple.com/us/app/replies-for-hacker-news/id6477880820"
+    firefox="https://addons.mozilla.org/en-US/firefox/addon/replies-for-hacker-news/"
+    marginTop=true
+%}
