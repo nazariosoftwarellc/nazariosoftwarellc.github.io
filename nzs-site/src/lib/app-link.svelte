@@ -7,7 +7,7 @@
 	}: { name: string; id: string; description: string; icon: string } = $props();
 
     let iconSrc = $derived('src/lib/assets/img/' + icon);
-    console.log('test 2')
+    console.log('test 3')
 </script>
 
 <div class="app-link-container">
