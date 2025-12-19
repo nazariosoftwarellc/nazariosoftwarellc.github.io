@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<header>
+  <h1>Nazario Software</h1>
+  <h2>Hand-raised, free-range browser extensions</h2>
+</header>
