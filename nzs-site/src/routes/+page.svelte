@@ -1,4 +1,5 @@
 <script lang="ts">
+	import AppLinkList from '$lib/app-link-list.svelte';
 	import siteSplashImg from '$lib/assets/img/site-splash.png';
 </script>
 
@@ -8,6 +9,9 @@
 		<h2>Hand-raised, free-range browser extensions</h2>
 	</div>
 </header>
+<main>
+	<AppLinkList />
+</main>
 
 <style lang="scss">
 	header {
