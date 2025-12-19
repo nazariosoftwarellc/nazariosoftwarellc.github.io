@@ -1,0 +1,37 @@
+[
+  {
+    "name": "JavaSnipt",
+    "id": "javasnipt",
+    "icon": "javasnipt-icon.png",
+    "href": "https://www.nazariosoftware.com/2021/04/07/about-javasnipt.html",
+    "description": "The JavaScript blocker and NoScript equivalent for Safari"
+  },
+  {
+    "name": "Incogmeeto",
+    "id": "incogmeeto",
+    "icon": "incogmeeto-icon.png",
+    "href": "https://www.nazariosoftware.com/2024/10/16/hide-your-google-meet-video-feed-from-yourself-with-incogmeeto.html",
+    "description": "Hide your Google Meet video feed from yourself"
+  },
+  {
+    "name": "Mute Chat for BoardGameArena",
+    "id": "mute-chat",
+    "icon": "mc-icon.png",
+    "href": "https://www.nazariosoftware.com/2023/06/02/play-in-peace-with-mute-chat-for-boardgamearena.html",
+    "description": "Play in peace on BoardGameArena.com"
+  },
+  {
+    "name": "Beautiful New Tabs",
+    "id": "beautiful-new-tabs",
+    "icon": "bnt-icon.png",
+    "href": "https://www.nazariosoftware.com/2021/05/13/make-your-new-tab-page-gorgeous-with-beautiful-new-tabs.html",
+    "description": "Replace your new tab page with a gorgeous wallpaper"
+  },
+  {
+    "name": "Replies for Hacker News",
+    "id": "replies-for-hacker-news",
+    "icon": "rhn-icon.png",
+    "href": "https://www.nazariosoftware.com/2024/02/23/never-miss-a-conversation-with-replies-for-hacker-news.html",
+    "description": "Never miss a conversation on Hacker News"
+  }
+]
