@@ -1,0 +1,2 @@
+<p>Nazario Software is run by me, <a href="https://kylenazario.com" target="_blank">Kyle Nazario</a>. I create small, high-quality apps I hope will be worth your time and money.</p>
+<p>If you like, <a href="https://kylenazario.com/contact" target="_blank">follow me</a> on your choice of social media.</p>

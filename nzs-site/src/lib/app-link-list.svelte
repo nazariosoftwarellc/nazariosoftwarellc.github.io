@@ -24,8 +24,10 @@
 		border: 1px solid gray;
 		border-radius: 20px;
 		padding: 1.5em;
-		background-color: black;
-		position: relative;
-		top: -200px;
+		background-color: white;
+
+    @media screen and (prefers-color-scheme: dark) {
+      background-color: black;
+    }
 	}
 </style>
