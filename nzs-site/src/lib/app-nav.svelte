@@ -8,7 +8,7 @@
 	]);
 </script>
 
-<nav>
+<nav class="outlined-section">
 	<ul>
 		{#each links as link}
 			<li><a href={link.href}>{link.name}</a></li>
@@ -16,17 +16,10 @@
 	</ul>
 </nav>
 
-<style>
+<style lang="scss">
+  @use '../global-styles';
   nav {
     width: 200px;
-    border: 1px solid gray;
-    border-radius: 20px;
-    padding: 1.5em;
-    background-color: white;
-
-    @media screen and (prefers-color-scheme: dark) {
-      background-color: black;
-    }
   }
 
   ul {

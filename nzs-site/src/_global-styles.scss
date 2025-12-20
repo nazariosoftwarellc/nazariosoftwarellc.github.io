@@ -1,0 +1,12 @@
+@use 'variables';
+
+.outlined-section {
+	border: 1px solid gray;
+	border-radius: variables.$border-radius;
+	padding: 1rem;
+	background-color: white;
+
+	@media screen and (prefers-color-scheme: dark) {
+		background-color: black;
+	}
+}
