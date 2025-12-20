@@ -2,6 +2,7 @@
 	import AppLinkList from '$lib/app-link-list.svelte';
 	import siteSplashImg from '$lib/assets/img/site-splash.png';
 	import SiteDescription from '$lib/site-description.svelte';
+	import SiteNav from '$lib/site-nav.svelte';
 	import '../_variables.scss';
 </script>
 
@@ -18,6 +19,8 @@
 	<div id="mobile-app-list-container">
 		<AppLinkList />
 	</div>
+	<SiteNav />
+	<hr />
 	<SiteDescription />
 </main>
 
