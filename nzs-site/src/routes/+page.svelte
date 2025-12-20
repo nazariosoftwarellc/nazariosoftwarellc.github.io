@@ -2,6 +2,7 @@
 	import AppLinkList from '$lib/app-link-list.svelte';
 	import siteSplashImg from '$lib/assets/img/site-splash.png';
 	import SiteDescription from '$lib/site-description.svelte';
+	import '../_variables.scss';
 </script>
 
 <header style:--bg-image="url({siteSplashImg})">
@@ -21,6 +22,8 @@
 </main>
 
 <style lang="scss">
+	@use '../variables';
+
 	header {
 		height: 700px;
 		background-image: var(--bg-image);
@@ -40,18 +43,16 @@
 		max-width: 750px;
 		margin-top: 2em;
 
-		@media screen and (max-width: 680px) {
+		@media screen and (max-width: variables.$mobile-width) {
 			display: none;
 		}
 	}
-
-	$mobile-width: var(--mobile-width);
 
 	#mobile-app-list-container {
 		margin-bottom: 2em;
 		width: 100%;
 
-		@media screen and (min-width: 681px) {
+		@media screen and (min-width: variables.$desktop-min-width) {
 			display: none;
 		}
 	}

@@ -22,11 +22,13 @@
 </div>
 
 <style lang="scss">
+	@use '../variables';
+
 	.app-link-container {
 		display: flex;
 		align-items: center;
 
-		@media screen and (max-width: 680px) {
+		@media screen and (max-width: variables.$mobile-width) {
 			flex-direction: column;
 			align-items: flex-start;
 		}
