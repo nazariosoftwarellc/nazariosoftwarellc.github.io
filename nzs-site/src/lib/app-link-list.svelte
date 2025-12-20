@@ -13,7 +13,7 @@
 
 <style lang="scss">
 	.app-link-item {
-		margin-bottom: 1em;
+		margin-bottom: 1.5em;
 
 		&:last-child {
 			margin-bottom: 0;

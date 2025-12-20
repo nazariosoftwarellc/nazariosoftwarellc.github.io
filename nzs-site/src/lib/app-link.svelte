@@ -6,8 +6,7 @@
 		icon
 	}: { name: string; id: string; description: string; icon: string } = $props();
 
-    let iconSrc = $derived('src/lib/assets/img/' + icon);
-    console.log('test 4')
+	let iconSrc = $derived('src/lib/assets/img/' + icon);
 </script>
 
 <div class="app-link-container">
@@ -26,13 +25,20 @@
 	.app-link-container {
 		display: flex;
 		align-items: center;
+
+		@media screen and (max-width: 680px) {
+			flex-direction: column;
+			align-items: flex-start;
+		}
 	}
 	h3 {
 		border-bottom: none;
 	}
 	img {
 		width: 64px;
+		min-width: 64px;
 		height: 64px;
 		margin-right: 1em;
+		margin-bottom: 0;
 	}
 </style>

@@ -9,11 +9,14 @@
 		<h1>Nazario Software</h1>
 		<h2>Hand-raised, free-range browser extensions</h2>
 	</div>
-	<div id="link-list-container">
+	<div id="desktop-app-list-container">
 		<AppLinkList />
 	</div>
 </header>
 <main>
+	<div id="mobile-app-list-container">
+		<AppLinkList />
+	</div>
 	<SiteDescription />
 </main>
 
@@ -33,8 +36,23 @@
 		}
 	}
 
-	#link-list-container {
+	#desktop-app-list-container {
 		max-width: 750px;
 		margin-top: 2em;
+
+		@media screen and (max-width: 680px) {
+			display: none;
+		}
+	}
+
+	$mobile-width: var(--mobile-width);
+
+	#mobile-app-list-container {
+		margin-bottom: 2em;
+		width: 100%;
+
+		@media screen and (min-width: 681px) {
+			display: none;
+		}
 	}
 </style>
