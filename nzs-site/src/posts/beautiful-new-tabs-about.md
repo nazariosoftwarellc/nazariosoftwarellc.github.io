@@ -21,7 +21,7 @@ This app does not use any:
 - Tracking of any kind
 - Third-party software libraries or SDKs
 
-Read more in the [BNT privacy policy]({% post_url 2021-05-11-beautiful-new-tabs-privacy-policy %}).
+Read more in the [BNT privacy policy](/apps/beautiful-new-tabs/privacy).
 
 ### Other platforms
 
