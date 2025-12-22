@@ -22,6 +22,7 @@ export async function load({ params }): Promise<ResolvedPost> {
 			throw new Error(`Unknown post type: ${postType}`);
 	}
 	const post = await PostLoader.loadPost(filename);
+
 	const appMetadata = (AppList as NZSAppList).find(app => app.id === appId);
 	if (!appMetadata) {
 		throw new Error(`Unknown app id: ${appId}`);
@@ -39,6 +40,7 @@ export async function load({ params }): Promise<ResolvedPost> {
 	return {
 		appId,
 		post,
+		postType,
 		bannerImageSrc,
 		downloadLinks: {
 			appleStoreUrl: appMetadata.appleStoreUrl,

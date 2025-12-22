@@ -6,7 +6,7 @@
 	const { data }: { data: ResolvedPost } = $props();
 </script>
 
-{#if data.bannerImageSrc}
+{#if data.bannerImageSrc && data.postType === 'about'}
 	<img
 		src={data.bannerImageSrc}
 		alt="{data.appId} banner"
