@@ -2,7 +2,6 @@
 	{
 		"name": "JavaSnipt",
 		"id": "javasnipt",
-		"icon": "javasnipt-icon.png",
 		"href": "https://www.nazariosoftware.com/apps/javasnipt/about",
 		"description": "The JavaScript blocker and NoScript equivalent for Safari",
 		"appleStoreUrl": "https://apps.apple.com/us/app/javasnipt/id1561868291"
@@ -10,7 +9,6 @@
 	{
 		"name": "Incogmeeto",
 		"id": "incogmeeto",
-		"icon": "incogmeeto-icon.png",
 		"href": "https://www.nazariosoftware.com/apps/incogmeeto/about",
 		"description": "Hide your Google Meet video feed from yourself",
 		"githubUrl": "https://github.com/nazariosoftwarellc/Incogmeeto/releases"
@@ -18,7 +16,6 @@
 	{
 		"name": "Mute Chat for BoardGameArena",
 		"id": "mute-chat",
-		"icon": "mc-icon.png",
 		"href": "https://www.nazariosoftware.com/apps/mute-chat/about",
 		"description": "Play in peace on BoardGameArena.com",
 		"chromeStoreUrl": "https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah",
@@ -28,7 +25,6 @@
 	{
 		"name": "Beautiful New Tabs",
 		"id": "beautiful-new-tabs",
-		"icon": "bnt-icon.png",
 		"href": "https://www.nazariosoftware.com/apps/beautiful-new-tabs/about",
 		"description": "Replace your new tab page with a gorgeous wallpaper",
 		"appleStoreUrl": "https://apps.apple.com/us/app/beautiful-new-tabs/id1567068235"
@@ -36,7 +32,6 @@
 	{
 		"name": "Replies for Hacker News",
 		"id": "replies-for-hacker-news",
-		"icon": "rhn-icon.png",
 		"href": "https://www.nazariosoftware.com/apps/replies-for-hacker-news/about",
 		"description": "Never miss a conversation on Hacker News",
 		"chromeStoreUrl": "https://chromewebstore.google.com/detail/replies-for-hacker-news/kjoojcgancofjkmknljjcedlkilcbdbb?pli=1",

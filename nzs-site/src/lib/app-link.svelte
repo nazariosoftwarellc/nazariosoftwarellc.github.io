@@ -3,11 +3,10 @@
 		name,
 		id,
 		description,
-		icon
-	}: { name: string; id: string; description: string; icon: string } = $props();
+	}: { name: string; id: string; description: string; } = $props();
 
-	let iconSrc = $derived('src/lib/assets/img/' + icon);
-	let href = `/apps/${id}`;
+	let iconSrc = $derived(`/src/lib/assets/img/${id}-icon.png`);
+	let href = $derived(`/apps/${id}`);
 </script>
 
 <div class="app-link-container">
