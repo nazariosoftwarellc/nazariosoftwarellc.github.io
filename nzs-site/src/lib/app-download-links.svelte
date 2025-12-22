@@ -1,17 +1,19 @@
 <script lang="ts">
   import type { ResolvedPost } from '$lib/types/resolved-types';
-	import AppStoreLink from './app-store-link.svelte';
-	import ChromeStoreLink from './chrome-store-link.svelte';
+	import StoreLink from './store-link.svelte';
 
   const { downloadLinks }: { downloadLinks: ResolvedPost['downloadLinks'] } = $props();
 </script>
 
 <div class="download-links">
   {#if downloadLinks.appleStoreUrl}
-    <AppStoreLink href={downloadLinks.appleStoreUrl} />
+    <StoreLink href={downloadLinks.appleStoreUrl} />
   {/if}
   {#if downloadLinks.chromeStoreUrl}
-    <ChromeStoreLink href={downloadLinks.chromeStoreUrl} />
+    <StoreLink href={downloadLinks.chromeStoreUrl} />
+  {/if}
+  {#if downloadLinks.firefoxStoreUrl}
+    <StoreLink href={downloadLinks.firefoxStoreUrl} />
   {/if}
 </div>
 
