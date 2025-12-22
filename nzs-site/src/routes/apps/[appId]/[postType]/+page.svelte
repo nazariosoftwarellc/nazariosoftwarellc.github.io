@@ -18,9 +18,6 @@
 <article>
 	{@html data.post}
 </article>
-<div style="margin-top: 2rem;">
-	<AppDownloadLinks downloadLinks={data.downloadLinks} />
-</div>
 
 <style lang="scss">
 	@use '../../../../variables';
