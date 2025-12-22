@@ -7,7 +7,6 @@ class PostLoader {
 		const files = import.meta.glob('../posts/*.md', {
 			as: 'raw'
 		});
-		console.log(files, name);
 		const markdown = await files[`../posts/${name}.md`]();
 		return converter.makeHtml(markdown);
 	}
