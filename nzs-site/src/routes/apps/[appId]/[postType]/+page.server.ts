@@ -18,6 +18,9 @@ export async function load({ params }): Promise<ResolvedPost> {
 		case 'support':
 			filename = `${appId}-help`;
 			break;
+		case 'changelog':
+			filename = `${appId}-changelog`;
+			break;
 		default:
 			throw new Error(`Unknown post type: ${postType}`);
 	}

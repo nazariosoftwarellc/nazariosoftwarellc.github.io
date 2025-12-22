@@ -1,11 +1,17 @@
 <script lang="ts">
 	const { appId }: { appId: string } = $props();
 
-	const links = $derived([
-		{ href: `/apps/${appId}/about`, name: 'About' },
-		{ href: `/apps/${appId}/support`, name: 'Support' },
-		{ href: `/apps/${appId}/privacy`, name: 'Privacy' }
-	]);
+	const links = $derived.by(() => {
+		const links = [
+			{ href: `/apps/${appId}/about`, name: 'About' },
+			{ href: `/apps/${appId}/support`, name: 'Support' },
+			{ href: `/apps/${appId}/privacy`, name: 'Privacy' }
+		];
+		if (appId === 'replies-for-hacker-news') {
+			links.push({href: `/apps/${appId}/changelog`, name: 'Changelog' });
+		}
+		return links;
+	});
 </script>
 
 <nav class="outlined-section">
@@ -17,13 +23,13 @@
 </nav>
 
 <style lang="scss">
-  @use '../global-styles';
-  nav {
-    width: 200px;
-  }
+	@use '../global-styles';
+	nav {
+		width: 200px;
+	}
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
+	ul {
+		list-style: none;
+		padding: 0;
+	}
 </style>

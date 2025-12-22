@@ -1,5 +1,5 @@
 export type ResolvedPost = {
-  postType: 'about' | 'privacy' | 'support';
+  postType: 'about' | 'privacy' | 'support' | 'changelog';
   appId: string;
   post: string;
   bannerImageSrc?: string;
