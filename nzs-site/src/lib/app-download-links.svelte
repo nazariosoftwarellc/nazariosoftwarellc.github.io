@@ -10,3 +10,10 @@
     <AppStoreLink href={downloadLinks.appleStoreUrl} />
   {/if}
 </div>
+
+<style>
+  .download-links {
+    display: flex;
+    justify-content: center;
+  }
+</style>
