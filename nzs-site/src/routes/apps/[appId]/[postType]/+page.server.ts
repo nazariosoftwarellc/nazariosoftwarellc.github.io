@@ -21,6 +21,9 @@ export async function load({ params }): Promise<ResolvedPost> {
 		case 'changelog':
 			filename = `${appId}-changelog`;
 			break;
+		case 'credits':
+			filename = `${appId}-credits`;
+			break;
 		default:
 			throw new Error(`Unknown post type: ${postType}`);
 	}

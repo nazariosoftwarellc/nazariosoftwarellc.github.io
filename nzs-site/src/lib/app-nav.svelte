@@ -10,6 +10,9 @@
 		if (appId === 'replies-for-hacker-news') {
 			links.push({href: `/apps/${appId}/changelog`, name: 'Changelog' });
 		}
+		if (appId === 'mute-chat') {
+			links.push({href: `/apps/${appId}/credits`, name: 'Credits' });
+		}
 		return links;
 	});
 </script>
