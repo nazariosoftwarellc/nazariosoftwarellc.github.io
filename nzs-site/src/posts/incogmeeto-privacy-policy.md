@@ -2,8 +2,6 @@
 
 Incogmeeto collects no information about its users. It does not store or share any data with anyone.
 
-{% include nutrition_label_explanation.html name="Incogmeeto" shortName="Incogmeeto" %}
-
 #### Third-party code included in EZ CRT
 
 No third-party code runs on your device.

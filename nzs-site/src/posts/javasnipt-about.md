@@ -36,7 +36,7 @@ It does not use any:
 - Tracking of any kind
 - Third-party software libraries of any kind
 
-Read more in the [JavaSnipt privacy policy]({% post_url 2021-04-07-javasnipt-privacy-policy %}).
+Read more in the [JavaSnipt privacy policy](/apps/javasnipt/privacy).
 
 ### Other platforms
 

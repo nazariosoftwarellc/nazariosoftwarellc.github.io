@@ -4,8 +4,6 @@
 
 The app also does not access your BoardGameArena.com account information.
 
-{% include nutrition_label_explanation.html name="Mute Chat for BoardGameArena" shortName="Mute Chat" %}
-
 #### Third-party code included in Mute Chat
 
 This code runs on your device.
@@ -32,10 +30,3 @@ This code does _not_ run on your device.
 
 - [prettier](https://www.npmjs.com/package/prettier): Automatically formats my code to look nice.
 - [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): Lets prettier understand Svelte.
-
-{% include app_store_links.html
-    chrome="https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah"
-    safari="https://apps.apple.com/us/app/mute-chat-for-boardgamearena/id6449945892"
-    firefox="https://addons.mozilla.org/en-US/firefox/addon/mute-chat-for-boardgamearena/"
-    marginTop=true
-%}

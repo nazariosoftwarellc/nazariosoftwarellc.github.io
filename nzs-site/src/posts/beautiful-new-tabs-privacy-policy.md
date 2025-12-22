@@ -8,8 +8,6 @@ BNT uses your provided location to load weather data. This information is cached
 
 BNT also stores your image search query locally on your computer so new images can be loaded when you open a new tab. This is also not stored or logged anywhere else.
 
-{% include nutrition_label_explanation.html name="Beautiful New Tabs" shortName="BNT" %}
-
 #### Third-party code included in BNT
 
 This code runs on your device.

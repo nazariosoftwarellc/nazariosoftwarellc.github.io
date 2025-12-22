@@ -1,12 +1,5 @@
 ## Get help with Mute Chat for BoardGameArena
 
-{% include app_store_links.html
-    chrome="https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah"
-    safari="https://apps.apple.com/us/app/mute-chat-for-boardgamearena/id6449945892"
-    firefox="https://addons.mozilla.org/en-US/firefox/addon/mute-chat-for-boardgamearena/"
-    marginBottom=true
-%}
-
 If you run into an issue not listed here, please [send me an email](mailto:nazariosoftwarellc+mc@gmail.com) describing your problem and I will do my best to help.
 
 ### Changing settings
@@ -57,10 +50,3 @@ No. As soon as you stop hiding the chat, you'll see any messages you may have mi
 #### Can I show messages from my friends?
 
 Not at the moment. There is no simple way to filter messages from non-friends. There's probably a creative way to do it, but BGA has strict rules against extracting player information that I don't want to cross.
-
-{% include app_store_links.html
-    chrome="https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah"
-    safari="https://apps.apple.com/us/app/mute-chat-for-boardgamearena/id6449945892"
-    firefox="https://addons.mozilla.org/en-US/firefox/addon/mute-chat-for-boardgamearena/"
-    marginTop=true
-%}
