@@ -1,11 +1,11 @@
 import PostLoader from '$lib/post-loader';
-import type { ResolvedPost } from '$lib/types/resolved-types.js';
+import type { ResolvedAppPost } from '$lib/types/resolved-types.js';
 import AppList from '$lib/assets/json/app-list.json';
 import type { NZSAppList } from '$lib/types/app-list.js';
 import fs from 'fs/promises';
 import path from 'path';
 
-export async function load({ params }): Promise<ResolvedPost> {
+export async function load({ params }): Promise<ResolvedAppPost> {
 	const { appId, postType } = params;
 	let filename: string;
 	switch (postType) {

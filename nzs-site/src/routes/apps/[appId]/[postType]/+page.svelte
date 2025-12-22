@@ -1,9 +1,9 @@
 <script lang="ts">
-	import type { ResolvedPost } from '$lib/types/resolved-types';
+	import type { ResolvedAppPost } from '$lib/types/resolved-types';
 	import AppNav from '$lib/app-nav.svelte';
 	import AppDownloadLinks from '$lib/app-download-links.svelte';
 
-	const { data }: { data: ResolvedPost } = $props();
+	const { data }: { data: ResolvedAppPost } = $props();
 </script>
 
 {#if data.bannerImageSrc && data.postType === 'about'}
