@@ -7,7 +7,9 @@
 </script>
 
 <div class="download-links" style="margin-bottom: 2rem;">
-	<AppStoreLink href="https://apps.apple.com/us/app/javasnipt/id1561868291" />
+	{#if data.downloadLinks.appleStoreUrl}
+		<AppStoreLink href={data.downloadLinks.appleStoreUrl} />
+	{/if}
 </div>
 
 <aside>
@@ -18,7 +20,9 @@
 	{@html data.post}
 </article>
 <div class="download-links" style="margin-top: 2rem;">
-	<AppStoreLink href="https://apps.apple.com/us/app/javasnipt/id1561868291" />
+	{#if data.downloadLinks.appleStoreUrl}
+		<AppStoreLink href={data.downloadLinks.appleStoreUrl} />
+	{/if}
 </div>
 
 <style lang="scss">
