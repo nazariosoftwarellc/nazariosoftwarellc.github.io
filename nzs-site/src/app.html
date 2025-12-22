@@ -3,9 +3,27 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="preload"
+			as="style"
+			onload="
+				this.onload = null;
+				this.rel = 'stylesheet';
+			"
+			href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-xonokai.min.css"
+			integrity="sha512-WMvUL/ap3JTqQEo4CIbB0jR2ACx+Qxg78UdKIWzV31CrefYZGtxuSod8uJwWDyzeVpQ0vKnXA41vS4UEvlNkoQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+			media="screen and (prefers-color-scheme: dark)"
+		/>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+	<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js" defer></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-applescript.min.js"
+		defer
+	></script>
 </html>
