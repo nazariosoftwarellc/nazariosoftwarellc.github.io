@@ -2,6 +2,8 @@ import PostLoader from '$lib/post-loader';
 import type { ResolvedPost } from '$lib/types/resolved-types.js';
 import AppList from '$lib/assets/json/app-list.json';
 import type { NZSAppList } from '$lib/types/app-list.js';
+import fs from 'fs/promises';
+import path from 'path';
 
 export async function load({ params }): Promise<ResolvedPost> {
 	const { appId, postType } = params;
@@ -24,9 +26,20 @@ export async function load({ params }): Promise<ResolvedPost> {
 	if (!appMetadata) {
 		throw new Error(`Unknown app id: ${appId}`);
 	}
+
+	let bannerImageSrc: string | undefined = undefined;
+	const bannerImageExists = await fs
+		.access(path.resolve('src/lib/assets/img', `${appId}-banner.png`))
+		.then(() => true)
+		.catch(() => false);
+	if (bannerImageExists) {
+		bannerImageSrc = `/src/lib/assets/img/${appId}-banner.png`;
+	}
+
 	return {
 		appId,
 		post,
+		bannerImageSrc,
 		downloadLinks: {
 			appleStoreUrl: appMetadata.appleStoreUrl,
 			chromeStoreUrl: appMetadata.chromeStoreUrl,

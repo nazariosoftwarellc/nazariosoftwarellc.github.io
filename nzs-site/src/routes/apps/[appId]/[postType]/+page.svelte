@@ -1,15 +1,18 @@
 <script lang="ts">
 	import type { ResolvedPost } from '$lib/types/resolved-types';
-	import AppStoreLink from '$lib/app-store-link.svelte';
 	import AppNav from '$lib/app-nav.svelte';
 	import AppDownloadLinks from '$lib/app-download-links.svelte';
 
 	const { data }: { data: ResolvedPost } = $props();
 </script>
 
-<div class="download-links" style="margin-bottom: 2rem;">
-	<AppDownloadLinks downloadLinks={data.downloadLinks} />
-</div>
+{#if data.bannerImageSrc}
+	<img
+		src={data.bannerImageSrc}
+		alt="{data.appId} banner"
+		style="width: 100%; margin-bottom: 1rem;"
+	/>
+{/if}
 
 <aside>
 	<AppNav appId={data.appId} />
@@ -18,6 +21,10 @@
 <article>
 	{@html data.post}
 </article>
+
+<div class="download-links" style="margin-top: 2rem;">
+	<AppDownloadLinks downloadLinks={data.downloadLinks} />
+</div>
 
 <style lang="scss">
 	@use '../../../../variables';

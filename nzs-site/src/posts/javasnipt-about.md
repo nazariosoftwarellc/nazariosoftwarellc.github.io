@@ -19,8 +19,6 @@ Alternatively, you can use JavaSnipt to block JavaScript on *all* websites and a
 
 Some sites, like YouTube, will not work with JavaScript blocked. That's why JavaSnipt targets only sites you select. 
 
-![JavaSnipt screenshots](/src/lib/assets/img/javasnipt-splash.png)
-
 ### Purchasing
 
 By purchasing JavaSnipt on iOS or macOS, you will also unlock the other platform. Your blocked sites sync between all your devices via iCloud.

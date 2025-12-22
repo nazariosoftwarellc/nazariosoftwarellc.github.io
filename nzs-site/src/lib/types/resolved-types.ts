@@ -1,6 +1,7 @@
 export type ResolvedPost = {
   appId: string;
   post: string;
+  bannerImageSrc?: string;
   downloadLinks: {
     appleStoreUrl?: string;
     chromeStoreUrl?: string;
