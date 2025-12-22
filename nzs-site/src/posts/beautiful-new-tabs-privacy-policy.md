@@ -1,9 +1,4 @@
----
-layout: post
-heading: Beautiful New Tabs privacy policy
-banner: /assets/img/bnt-3.png
-tags: bnt privacy-policy
----
+## Beautiful New Tabs privacy policy
 
 Beautiful New Tabs does not collect any data about its users.
 
@@ -15,15 +10,15 @@ BNT also stores your image search query locally on your computer so new images c
 
 {% include nutrition_label_explanation.html name="Beautiful New Tabs" shortName="BNT" %}
 
-### Third-party code included in BNT
+#### Third-party code included in BNT
 
 This code runs on your device.
 
 - None
 
-### Third-party code used to build BNT 
+#### Third-party code used to build BNT
 
-This code does *not* run on your device.
+This code does _not_ run on your device.
 
 **The app**
 

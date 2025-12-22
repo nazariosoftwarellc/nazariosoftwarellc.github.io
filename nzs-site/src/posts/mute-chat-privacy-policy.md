@@ -1,26 +1,21 @@
----
-layout: post
-title: Mute Chat for BoardGameArena privacy policy
-banner: /assets/img/mc-icon.png
-tags: mute-chat privacy-policy
----
+## Mute Chat for BoardGameArena privacy policy
 
-**Mute Chat for BoardGameArena** collects no information about its users. It does not share any information with any third parties, because it has nothing to share. 
+**Mute Chat for BoardGameArena** collects no information about its users. It does not share any information with any third parties, because it has nothing to share.
 
-The app also does not access your BoardGameArena.com account information. 
+The app also does not access your BoardGameArena.com account information.
 
 {% include nutrition_label_explanation.html name="Mute Chat for BoardGameArena" shortName="Mute Chat" %}
 
-### Third-party code included in Mute Chat
+#### Third-party code included in Mute Chat
 
 This code runs on your device.
 
 - [detect-browser](https://www.npmjs.com/package/detect-browser): Small tool to check which browser is running Mute Chat so the extension can use the correct icon image. This information is not logged or shared.
 - [webextension-polyfill](https://github.com/mozilla/webextension-polyfill): A Mozilla library that smoothes over differences between web browsers, allowing Mute Chat to run on all of them with the same code.
 
-### Third-party code used to build BNT 
+#### Third-party code used to build BNT
 
-This code does *not* run on your device.
+This code does _not_ run on your device.
 
 **The app**
 
@@ -38,7 +33,7 @@ This code does *not* run on your device.
 - [prettier](https://www.npmjs.com/package/prettier): Automatically formats my code to look nice.
 - [prettier-plugin-svelte](https://www.npmjs.com/package/prettier-plugin-svelte): Lets prettier understand Svelte.
 
-{% include app_store_links.html 
+{% include app_store_links.html
     chrome="https://chrome.google.com/webstore/detail/mute-chat-for-boardgamear/gohhojdlpnegnpbgdbplhkkaaagkhaah"
     safari="https://apps.apple.com/us/app/mute-chat-for-boardgamearena/id6449945892"
     firefox="https://addons.mozilla.org/en-US/firefox/addon/mute-chat-for-boardgamearena/"

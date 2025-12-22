@@ -1,9 +1,4 @@
----
-layout: post
-title: Hide your Google Meet video feed from yourself with Incogmeeto
-banner: /assets/img/incogmeeto-splash.png
-tags: incogmeeto splash
----
+## Hide your Google Meet video feed from yourself with Incogmeeto
 
 **Incogmeeto** hides your view of yourself whenever you join a Google Meet in Safari. That's it!
 
