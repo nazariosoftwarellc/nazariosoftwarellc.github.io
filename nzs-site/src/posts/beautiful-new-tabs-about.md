@@ -30,7 +30,3 @@ Read more in the [BNT privacy policy](/apps/beautiful-new-tabs/privacy).
 ### Other platforms
 
 Beautiful New Tabs is built as a native Safari extension. It does not support Chrome or Firefox. For those browsers, I would recommend [Tabliss](https://tabliss.io) ([Chrome](https://chrome.google.com/webstore/detail/tabliss-a-beautiful-new-t/hipekcciheckooncpjeljhnekcoolahp), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tabliss/?src=external-tabliss.io)).
-
-### Credits
-
-Safari toolbar icon: [Rose by Vectors Market from the Noun Project](https://thenounproject.com/search/?q=rose&i=1928850)
