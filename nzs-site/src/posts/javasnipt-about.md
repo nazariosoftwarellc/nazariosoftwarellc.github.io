@@ -1,7 +1,3 @@
-<script>
-  import AppStoreLink from '$lib/app-store-link.svelte';
-</script>
-
 ## Block JavaScript in Safari with JavaSnipt
 
 The web has too many popups and third-party scripts. It wasn't designed to respect your privacy, battery life, data cap or phone-sized screen. Take back control with JavaSnipt. 
