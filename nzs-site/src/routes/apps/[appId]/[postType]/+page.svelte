@@ -46,6 +46,7 @@
 		overflow: auto;
 		position: relative;
 		right: -100px;
+		max-width: variables.$article-max-width;
 
 		@media screen and (max-width: variables.$mobile-width) {
 			right: 0;

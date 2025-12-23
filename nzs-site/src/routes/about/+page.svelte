@@ -9,3 +9,11 @@
 <article>
   {@html data.post}
 </article>
+
+<style lang="scss">
+  @use '../../variables';
+
+  article {
+    max-width: variables.$article-max-width;
+  }
+</style>
