@@ -19,5 +19,6 @@
     padding: 0;
     display: flex;
     gap: 1rem;
+    margin-bottom: 0;
   }
 </style>
