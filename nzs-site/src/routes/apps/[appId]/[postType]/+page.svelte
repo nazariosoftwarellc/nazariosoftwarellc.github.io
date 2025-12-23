@@ -42,13 +42,14 @@
 		}
 	}
 
+	$article-mobile-width: calc(variables.$article-max-width + variables.$mobile-width);
 	article {
 		overflow: auto;
 		position: relative;
 		right: -100px;
 		max-width: variables.$article-max-width;
 
-		@media screen and (max-width: variables.$mobile-width) {
+		@media screen and (max-width: $article-mobile-width) {
 			right: 0;
 		}
 	}
