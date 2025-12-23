@@ -23,6 +23,7 @@
 		display: flex;
 		justify-content: center;
 		gap: 1rem;
+		padding: 0 2rem;
 
 		@media screen and (max-width: variables.$mobile-width) {
 			flex-direction: column;
