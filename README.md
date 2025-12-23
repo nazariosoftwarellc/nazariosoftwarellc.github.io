@@ -1,13 +1,38 @@
-# Nazario Software
+# sv
 
-I'm [Kyle Nazario](https://www.kylenazario.com/), the sole proprietor of Nazario Software. I make simple, high-quality apps for purchase.
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## The website
+## Creating a project
 
-This is the backing code for [nazariosoftware.com](https://www.nazariosoftware.com/), the public website for my company. The site provides support pages for the apps I publish: marketing materials explaining what the apps do, privacy policies, FAQs, etc.
+If you're seeing this, you've probably already done this step. Congrats!
 
-### Simple static generation
+```sh
+# create a new project in the current directory
+npx sv create
 
-Jekyll isn't the sexiest or newest static site generator, but it's one I'm familiar with and it's effective. Plus it's got a ton of great themes to help you get a great-looking site quickly. 
+# create a new project in my-app
+npx sv create my-app
+```
 
-The code in this repo is the source. Everything gets auto-built by GitHub Pages and served as the public website.
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```sh
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```sh
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
