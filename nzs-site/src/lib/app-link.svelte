@@ -5,7 +5,7 @@
 		description,
 	}: { name: string; id: string; description: string; } = $props();
 
-	let iconSrc = $derived(`/src/lib/assets/img/${id}-icon.png`);
+	let iconSrc = $derived(`/img/${id}-icon.png`);
 	let href = $derived(`/apps/${id}`);
 </script>
 

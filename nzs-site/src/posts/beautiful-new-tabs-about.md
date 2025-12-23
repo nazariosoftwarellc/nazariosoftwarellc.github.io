@@ -8,7 +8,7 @@ Beautiful New Tabs also shows the weather for your location. The interface for t
 
 Try a simple, beautiful way to open new tabs.
 
-![A screenshot of a browser window showing mountains and weather in Denver, Colorado](/src/lib/assets/img/bnt-1.png)
+![A screenshot of a browser window showing mountains and weather in Denver, Colorado](/img/bnt-1.png)
 
 ### Purchasing
 
@@ -25,7 +25,7 @@ This app does not use any:
 
 Read more in the [BNT privacy policy](/apps/beautiful-new-tabs/privacy).
 
-![A screenshot of a browser window showing a cat looking up and weather in London, England](/src/lib/assets/img/bnt-2.png)
+![A screenshot of a browser window showing a cat looking up and weather in London, England](/img/bnt-2.png)
 
 ### Other platforms
 

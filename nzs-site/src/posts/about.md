@@ -1,4 +1,4 @@
-![A picture of a man and his partner in Utah](/src/lib/assets/img/me-and-charlotte.JPEG)
+![A picture of a man and his partner in Utah](/img/me-and-charlotte.JPEG)
 
 (Me and my partner hiking in Canyonlands National Park in 2020)
 

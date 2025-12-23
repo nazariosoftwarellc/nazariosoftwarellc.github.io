@@ -36,11 +36,11 @@ export async function load({ params }): Promise<ResolvedAppPost> {
 
 	let bannerImageSrc: string | undefined = undefined;
 	const bannerImageExists = await fs
-		.access(path.resolve('src/lib/assets/img', `${appId}-banner.png`))
+		.access(path.resolve('static', 'img', `${appId}-banner.png`))
 		.then(() => true)
 		.catch(() => false);
 	if (bannerImageExists) {
-		bannerImageSrc = `/src/lib/assets/img/${appId}-banner.png`;
+		bannerImageSrc = `/img/${appId}-banner.png`;
 	}
 
 	return {

@@ -1,8 +1,4 @@
 <script lang="ts">
-	import chromeStoreBadge from '$lib/assets/img/chrome-store-badge.png';
-	import appStoreBadge from '$lib/assets/img/app-store-badge.svg';
-	import firefoxStoreBadge from '$lib/assets/img/firefox-store-badge.png';
-
 	const { href }: { href: string } = $props();
 
 	const linkType: 'chrome' | 'firefox' | 'apple' = $derived.by(() => {
@@ -35,15 +31,15 @@
 
 	const imageSrc = $derived.by(() => {
 		if (linkType === 'chrome') {
-			return chromeStoreBadge;
+			return '/img/chrome-store-badge.png';
 		}
 		if (linkType === 'firefox') {
-			return firefoxStoreBadge;
+			return '/img/firefox-store-badge.png';
 		}
 		if (linkType === 'apple') {
-			return appStoreBadge;
+			return '/img/app-store-badge.svg';
 		}
-		return chromeStoreBadge;
+		return '/img/chrome-store-badge.png';
 	});
 </script>
 

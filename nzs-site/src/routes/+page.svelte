@@ -1,12 +1,11 @@
 <script lang="ts">
 	import AppLinkList from '$lib/app-link-list.svelte';
-	import siteSplashImg from '$lib/assets/img/site-splash.png';
 	import SiteDescription from '$lib/site-description.svelte';
 	import SiteNav from '$lib/site-nav.svelte';
 	import '../_variables.scss';
 </script>
 
-<header style:--bg-image="url({siteSplashImg})">
+<header style:--bg-image="url('/img/site-splash.png')">
 	<div>
 		<h1>Nazario Software</h1>
 		<h2>Hand-raised, free-range browser extensions</h2>
