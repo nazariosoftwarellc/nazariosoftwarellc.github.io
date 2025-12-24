@@ -34,10 +34,7 @@ export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 	}
 
 	let bannerImageSrc: string | undefined = undefined;
-	const bannerImageExists = await fs
-		.access(path.resolve('static', 'img', `${appId}-banner.png`))
-		.then(() => true)
-		.catch(() => false);
+	const bannerImageExists = await PostLoader.postHasBannerImage(fetch, appId);
 	if (bannerImageExists) {
 		bannerImageSrc = `/img/${appId}-banner.png`;
 	}

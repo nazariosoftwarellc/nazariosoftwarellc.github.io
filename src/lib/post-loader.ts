@@ -21,6 +21,17 @@ class PostLoader {
 		}
 		return await response.json();
 	}
+
+	static async postHasBannerImage(svelteFetch: typeof fetch, appId: string): Promise<boolean> {
+		try {
+			const response = await svelteFetch(asset(`/img/${appId}-banner.png`), {
+				method: 'HEAD'
+			});
+			return response.ok;
+		} catch {
+			return false;
+		}
+	}
 }
 
 export default PostLoader;
