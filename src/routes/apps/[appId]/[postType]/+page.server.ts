@@ -1,11 +1,9 @@
 import PostLoader from '$lib/post-loader';
 import type { ResolvedAppPost } from '$lib/types/resolved-types.js';
-import AppList from '$lib/assets/json/app-list.json';
-import type { NZSAppList } from '$lib/types/app-list.js';
 import fs from 'fs/promises';
 import path from 'path';
 
-export async function load({ params }): Promise<ResolvedAppPost> {
+export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 	const { appId, postType } = params;
 	let filename: string;
 	switch (postType) {
@@ -29,7 +27,8 @@ export async function load({ params }): Promise<ResolvedAppPost> {
 	}
 	const post = await PostLoader.loadPost(filename);
 
-	const appMetadata = (AppList as NZSAppList).find(app => app.id === appId);
+	const appList = await PostLoader.loadAppList(fetch);
+	const appMetadata = appList.find(app => app.id === appId);
 	if (!appMetadata) {
 		throw new Error(`Unknown app id: ${appId}`);
 	}

@@ -1,4 +1,6 @@
+import { asset } from '$app/paths';
 import showdown from 'showdown';
+import type { NZSAppList } from './types/app-list';
 
 const converter = new showdown.Converter({ splitAdjacentBlockquotes: true });
 
@@ -9,6 +11,15 @@ class PostLoader {
 		});
 		const markdown = await files[`../posts/${name}.md`]();
 		return converter.makeHtml(markdown);
+	}
+
+	static async loadAppList(svelteFetch: typeof fetch): Promise<NZSAppList> {
+		const appListJsonUrl = asset('/json/app-list.json');
+		const response = await svelteFetch(appListJsonUrl);
+		if (!response.ok) {
+			throw new Error('Failed to fetch app list');
+		}
+		return await response.json();
 	}
 }
 

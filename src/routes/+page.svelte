@@ -2,7 +2,10 @@
 	import AppLinkList from '$lib/app-link-list.svelte';
 	import SiteDescription from '$lib/site-description.svelte';
 	import SiteNav from '$lib/site-nav.svelte';
+	import type { ResolvedAppList } from '$lib/types/resolved-types';
 	import '../_variables.scss';
+
+	const {data}: {data: ResolvedAppList} = $props()
 </script>
 
 <header style:--bg-image="url('/img/site-splash.png')">
@@ -11,12 +14,12 @@
 		<h2>Hand-raised, free-range browser extensions</h2>
 	</div>
 	<div id="desktop-app-list-container">
-		<AppLinkList />
+		<AppLinkList appList={data.appList} />
 	</div>
 </header>
 <main>
 	<div id="mobile-app-list-container">
-		<AppLinkList />
+		<AppLinkList appList={data.appList} />
 	</div>
 	<SiteNav />
 	<hr />

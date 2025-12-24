@@ -1,3 +1,5 @@
+import type { NZSAppList } from './app-list';
+
 export type ResolvedPost = {
   post: string;
 };
@@ -13,3 +15,7 @@ export type ResolvedAppPost = ResolvedPost & {
 		githubUrl?: string;
 	};
 };
+
+export type ResolvedAppList = {
+	appList: NZSAppList;
+}
