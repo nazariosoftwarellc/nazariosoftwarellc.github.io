@@ -15,7 +15,9 @@ jobs:
           node-version: '22'
       - name: Install Dependencies
         run: npm ci
-      - name: Build & Deploy Worker
+      - name: Build App
+        run: npm run build
+      - name: Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
