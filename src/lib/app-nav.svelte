@@ -5,11 +5,9 @@
 		const links = [
 			{ href: `/apps/${appId}/about`, name: 'About' },
 			{ href: `/apps/${appId}/support`, name: 'Support' },
-			{ href: `/apps/${appId}/privacy`, name: 'Privacy' }
+			{ href: `/apps/${appId}/privacy`, name: 'Privacy' },
+			{href: `/apps/${appId}/changelog`, name: 'Changelog' }
 		];
-		if (appId === 'replies-for-hacker-news') {
-			links.push({href: `/apps/${appId}/changelog`, name: 'Changelog' });
-		}
 		if (appId === 'mute-chat' || appId === 'beautiful-new-tabs') {
 			links.push({href: `/apps/${appId}/credits`, name: 'Credits' });
 		}

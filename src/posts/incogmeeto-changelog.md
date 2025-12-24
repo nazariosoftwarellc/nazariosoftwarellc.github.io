@@ -1,0 +1,1 @@
+See [Github](https://github.com/nazariosoftwarellc/Incogmeeto/releases) for Incogmeeto's changelog.
