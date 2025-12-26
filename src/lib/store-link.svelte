@@ -31,15 +31,15 @@
 
 	const imageSrc = $derived.by(() => {
 		if (linkType === 'chrome') {
-			return '/img/chrome-store-badge.png';
+			return '/img/chrome-store-badge.webp';
 		}
 		if (linkType === 'firefox') {
-			return '/img/firefox-store-badge.png';
+			return '/img/firefox-store-badge.webp';
 		}
 		if (linkType === 'apple') {
 			return '/img/app-store-badge.svg';
 		}
-		return '/img/chrome-store-badge.png';
+		return '/img/chrome-store-badge.webp';
 	});
 </script>
 

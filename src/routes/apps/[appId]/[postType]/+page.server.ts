@@ -36,7 +36,7 @@ export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 	let bannerImageSrc: string | undefined = undefined;
 	const bannerImageExists = await PostLoader.postHasBannerImage(fetch, appId);
 	if (bannerImageExists) {
-		bannerImageSrc = `/img/${appId}-banner.png`;
+		bannerImageSrc = `/img/${appId}-banner.webp`;
 	}
 
 	return {
