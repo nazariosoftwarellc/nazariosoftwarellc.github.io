@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { ResolvedAppPost } from '$lib/types/resolved-types';
 	import AppNav from '$lib/app-nav.svelte';
-	import AppDownloadLinks from '$lib/app-download-links.svelte';
+	import StoreLinkList from '$lib/store-link-list.svelte';
 
 	const { data }: { data: ResolvedAppPost } = $props();
 </script>
@@ -23,7 +23,7 @@
 </article>
 
 <div class="download-links" style="margin-top: 2rem;">
-	<AppDownloadLinks downloadLinks={data.downloadLinks} />
+	<StoreLinkList downloadLinks={data.downloadLinks} />
 </div>
 
 <style lang="scss">
