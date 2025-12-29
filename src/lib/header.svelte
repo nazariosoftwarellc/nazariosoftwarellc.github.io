@@ -1,10 +1,11 @@
 <script>
+	import { SITE_TITLE } from './site-metadata';
 	import SiteNav from './site-nav.svelte';
 </script>
 
 <header>
 	<a href="/">
-		<h1>Nazario Software</h1>
+		<h1>{SITE_TITLE}</h1>
 	</a>
 	<SiteNav />
 </header>

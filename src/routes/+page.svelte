@@ -1,6 +1,7 @@
 <script lang="ts">
 	import AppLinkList from '$lib/app-link-list.svelte';
 	import SiteDescription from '$lib/site-description.svelte';
+	import { SITE_TITLE } from '$lib/site-metadata';
 	import SiteNav from '$lib/site-nav.svelte';
 	import type { ResolvedAppList } from '$lib/types/resolved-types';
 	import '../_variables.scss';
@@ -10,7 +11,7 @@
 
 <header style:--bg-image="url('/img/site-splash.png')">
 	<div>
-		<h1>Nazario Software</h1>
+		<h1>{SITE_TITLE}</h1>
 		<h2>Hand-raised, free-range browser extensions</h2>
 	</div>
 	<div id="desktop-app-list-container">
