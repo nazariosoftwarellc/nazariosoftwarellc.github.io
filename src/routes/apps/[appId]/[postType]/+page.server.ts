@@ -31,6 +31,8 @@ export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 		throw new Error(`Unknown app id: ${appId}`);
 	}
 
+	const appName = appMetadata.name;
+
 	let bannerImageSrc: string | undefined = undefined;
 	const bannerImageExists = await PostLoader.postHasBannerImage(fetch, appId);
 	if (bannerImageExists) {
@@ -39,6 +41,7 @@ export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 
 	return {
 		appId,
+		appName,
 		post,
 		postType,
 		bannerImageSrc,

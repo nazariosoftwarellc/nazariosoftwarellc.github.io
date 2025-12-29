@@ -7,6 +7,7 @@ export type ResolvedPost = {
 export type ResolvedAppPost = ResolvedPost & {
 	postType: 'about' | 'privacy' | 'support' | 'changelog' | 'credits';
 	appId: string;
+	appName: string;
 	bannerImageSrc?: string;
 	downloadLinks: {
 		appleStoreUrl?: string;

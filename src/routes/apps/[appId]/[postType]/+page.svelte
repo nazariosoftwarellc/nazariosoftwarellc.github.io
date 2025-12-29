@@ -2,9 +2,14 @@
 	import type { ResolvedAppPost } from '$lib/types/resolved-types';
 	import AppNav from '$lib/app-nav.svelte';
 	import StoreLinkList from '$lib/store-link-list.svelte';
+	import { SITE_TITLE } from '$lib/site-metadata';
 
 	const { data }: { data: ResolvedAppPost } = $props();
 </script>
+
+<svelte:head>
+	<title>{data.appName} | {SITE_TITLE}</title>
+</svelte:head>
 
 {#if data.bannerImageSrc && data.postType === 'about'}
 	<img

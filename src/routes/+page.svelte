@@ -9,6 +9,11 @@
 	const { data }: { data: ResolvedAppList } = $props();
 </script>
 
+<svelte:head>
+	<title>{SITE_TITLE}</title>
+	<meta name="description" content="Hand-raised, free-range browser extensions" />
+</svelte:head>
+
 <header style:--bg-image="url('/img/site-splash.png')">
 	<div>
 		<h1>{SITE_TITLE}</h1>
