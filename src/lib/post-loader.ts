@@ -32,6 +32,23 @@ class PostLoader {
 			return false;
 		}
 	}
+
+	static getPostFilenameFromType(appId: string, postType: string): string {
+		switch (postType) {
+			case 'about':
+				return `${appId}-about`;
+			case 'privacy':
+				return `${appId}-privacy-policy`;
+			case 'support':
+				return `${appId}-help`;
+			case 'changelog':
+				return `${appId}-changelog`;
+			case 'credits':
+				return `${appId}-credits`;
+			default:
+				throw new Error(`Unknown post type: ${postType}`);
+		}
+	}
 }
 
 export default PostLoader;

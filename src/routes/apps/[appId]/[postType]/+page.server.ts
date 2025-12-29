@@ -3,27 +3,8 @@ import type { ResolvedAppPost } from '$lib/types/resolved-types.js';
 
 export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 	const { appId, postType } = params;
-	let filename: string;
-	switch (postType) {
-		case 'about':
-			filename = `${appId}-about`;
-			break;
-		case 'privacy':
-			filename = `${appId}-privacy-policy`;
-			break;
-		case 'support':
-			filename = `${appId}-help`;
-			break;
-		case 'changelog':
-			filename = `${appId}-changelog`;
-			break;
-		case 'credits':
-			filename = `${appId}-credits`;
-			break;
-		default:
-			throw new Error(`Unknown post type: ${postType}`);
-	}
-	const post = await PostLoader.loadPost(filename);
+	const postFilename = PostLoader.getPostFilenameFromType(appId, postType);
+	const post = await PostLoader.loadPost(postFilename);
 
 	const appList = await PostLoader.loadAppList(fetch);
 	const appMetadata = appList.find(app => app.id === appId);
@@ -43,7 +24,8 @@ export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 		appId,
 		appName,
 		post,
-		postType,
+		// getPostFilenameFromType crashes if postType is invalid, so we can assert it's valid here
+		postType: postType as ResolvedAppPost['postType'],
 		bannerImageSrc,
 		downloadLinks: {
 			appleStoreUrl: appMetadata.appleStoreUrl,
