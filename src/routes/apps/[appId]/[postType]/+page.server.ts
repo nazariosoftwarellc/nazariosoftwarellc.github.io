@@ -1,7 +1,5 @@
 import PostLoader from '$lib/post-loader';
 import type { ResolvedAppPost } from '$lib/types/resolved-types.js';
-import fs from 'fs/promises';
-import path from 'path';
 
 export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 	const { appId, postType } = params;

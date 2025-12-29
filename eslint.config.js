@@ -18,6 +18,9 @@ export default defineConfig(
 	prettier,
 	...svelte.configs.prettier,
 	{
+		ignores: ['src/worker-configuration.d.ts']
+	},
+	{
 		languageOptions: { globals: { ...globals.browser, ...globals.node } },
 
 		rules: {
@@ -39,7 +42,9 @@ export default defineConfig(
 		},
 
 		rules: {
-			'svelte/no-at-html-tags': 'off'
+			// Site is pre-rendered, so using @html is safe
+			'svelte/no-at-html-tags': 'off',
+			'svelte/no-navigation-without-resolve': 'off'
 		}
 	}
 );

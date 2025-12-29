@@ -7,7 +7,7 @@
 
 <nav>
 	<ul>
-		{#each links as link}
+		{#each links as link (link.href)}
 			<li><a href={link.href}>{link.label}</a></li>
 		{/each}
 	</ul>

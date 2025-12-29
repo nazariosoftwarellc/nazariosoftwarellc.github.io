@@ -17,7 +17,7 @@
 
 <nav class="outlined-section">
 	<ul>
-		{#each links as link}
+		{#each links as link (link.href)}
 			<li><a href={link.href}>{link.name}</a></li>
 		{/each}
 	</ul>

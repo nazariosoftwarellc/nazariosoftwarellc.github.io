@@ -1,13 +1,12 @@
 <script lang="ts">
 	import AppLink from './app-link.svelte';
-	import { asset } from '$app/paths';
 	import type { NZSAppList } from './types/app-list';
 
 	const { appList }: { appList: NZSAppList } = $props();
 </script>
 
 <div class="outlined-section">
-	{#each appList as app}
+	{#each appList as app (app.id)}
 		<div class="app-link-item">
 			<AppLink {...app} />
 		</div>
