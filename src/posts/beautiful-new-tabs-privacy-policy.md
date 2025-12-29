@@ -1,4 +1,4 @@
-## Beautiful New Tabs privacy policy
+## Beautiful New Tabs Privacy Policy
 
 Beautiful New Tabs does not collect any data about its users.
 
@@ -6,17 +6,17 @@ BNT uses your provided location to load weather data. This information is cached
 
 BNT also stores your image search query locally on your computer so new images can be loaded when you open a new tab. This is also not stored or logged anywhere else.
 
-#### Third-party code included in BNT
+### Third-party code included in BNT
 
 This code runs on your device.
 
 - None
 
-#### Third-party code used to build BNT
+### Third-party code used to build BNT
 
 This code does _not_ run on your device.
 
-**The app**
+#### The app
 
 - [Svelte](https://svelte.dev): A framework for building fast, lightweight web apps.
 - [TypeScript](https://www.typescriptlang.org): A variant of JavaScript. Helps you write safer, less crash-y code.
@@ -26,7 +26,7 @@ This code does _not_ run on your device.
 - [esbuild-svelte](https://www.npmjs.com/package/esbuild-svelte): Lets esbuild compile Svelte files.
 - [svelte-preprocess](https://www.npmjs.com/package/svelte-preprocess): Lets Svelte understand TypeScript.
 
-**Code quality**
+#### Code quality
 
 - [eslint](https://www.npmjs.com/package/eslint): Code-quality checker for TypeScript.
 - [eslint-config-google](https://www.npmjs.com/package/eslint-config-google): Tells eslint to make my code conform to Google's house style.
@@ -37,7 +37,7 @@ This code does _not_ run on your device.
 - [SwiftLint](https://github.com/realm/SwiftLint): Code-quality checker for Swift.
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat): Automatically formats Swift to look nice.
 
-**Testing**
+#### Testing
 
 - [Jest](https://jestjs.io): Tests the parts that make up the new tab page.
 - [ts-jest](https://www.npmjs.com/package/ts-jest): Lets me write tests in TypeScript instead of JavaScript.

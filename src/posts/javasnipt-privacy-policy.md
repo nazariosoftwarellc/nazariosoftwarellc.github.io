@@ -1,4 +1,4 @@
-## JavaSnipt privacy policy
+## JavaSnipt Privacy Policy
 
 JavaSnipt does not collect any data about its users. Easy!
 
@@ -10,10 +10,10 @@ The **JavaSnipt UI** macOS extension requires permission to read the webpage con
 
 If you do not wish to enable it, JavaSnipt will still function with just the **JavaSnipt Blocker** extension enabled. You will have to manually add websites in the main JavaSnipt app, however.
 
-#### Third-party code included in JavaSnipt:
+### Third-party code included in JavaSnipt:
 
 - None
 
-#### Third-party code used to build JavaSnipt:
+### Third-party code used to build JavaSnipt:
 
 - None

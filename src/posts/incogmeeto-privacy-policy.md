@@ -1,12 +1,12 @@
-## Incogmeeto privacy policy
+## Incogmeeto Privacy Policy
 
 Incogmeeto collects no information about its users. It does not store or share any data with anyone.
 
-#### Third-party code included in Incogmeeto
+### Third-party code included in Incogmeeto
 
 No third-party code runs on your device.
 
-#### Third-party code used to build Incogmeeto
+### Third-party code used to build Incogmeeto
 
 This code does _not_ run on your device.
 

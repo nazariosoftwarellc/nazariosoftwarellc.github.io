@@ -1,4 +1,4 @@
-## Get help with Mute Chat for BoardGameArena
+## Mute Chat for BoardGameArena Suppport
 
 If you run into an issue not listed here, please [send me an email](mailto:nazariosoftwarellc+mc@gmail.com) describing your problem and I will do my best to help.
 

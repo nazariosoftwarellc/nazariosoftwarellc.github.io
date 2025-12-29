@@ -1,4 +1,4 @@
-## Mute Chat for BoardGameArena credits
+## Mute Chat for BoardGameArena Credits
 
 **Mute Chat for BoardGameArena** is made by me, [Kyle Nazario](https://www.kylenazario.com). I'm an independent software developer who tries to make useful web extensions. Thank you for downloading Mute Chat!
 

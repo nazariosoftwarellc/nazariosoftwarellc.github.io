@@ -1,4 +1,4 @@
-## Get help with JavaSnipt
+## JavaSnipt Support
 
 If you need help with JavaSnipt, please send an email describing the exact problem and steps that made the problem occur to [nazariosoftwarellc@gmail.com](mailto:nazariosoftwarellc+js@gmail.com).
 

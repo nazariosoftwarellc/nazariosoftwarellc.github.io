@@ -1,4 +1,4 @@
-## Replies for Hacker News changelog
+## Replies for Hacker News Changelog
 
 ### 1.0.2 (November 2025)
 

@@ -1,4 +1,4 @@
-## Replies for Hacker News privacy policy
+## Replies for Hacker News Privacy Policy
 
 An email address is required to purchase Replies for Hacker News. **Your email address will not be shared or messaged**. It is used only to identify your purchase if you need to restore it at some point in the future.
 
@@ -6,7 +6,7 @@ Other than that, Replies for Hacker News collects no information about its users
 
 This extension also runs only on [https://news.ycombinator.com](https://news.ycombinator.com). It cannot access data on other websites.
 
-#### Third-party code included in RHN
+### Third-party code included in RHN
 
 This code runs on your device.
 
@@ -14,7 +14,7 @@ This code runs on your device.
 - [webextension-polyfill](https://github.com/mozilla/webextension-polyfill): A Mozilla library that smoothes over differences between web browsers, allowing the app to run on all of them with the same code.
 - [DayJS](https://day.js.org): A library for formatting dates.
 
-#### Third-party code used to build RHN
+### Third-party code used to build RHN
 
 This code does _not_ run on your device.
 

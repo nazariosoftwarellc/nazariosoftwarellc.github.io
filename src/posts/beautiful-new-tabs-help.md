@@ -1,4 +1,4 @@
-## Get help with Beautiful New Tabs
+## Beautiful New Tabs Support
 
 If you need help with Beautiful New Tabs, please send an email describing the exact problem and steps that made the problem occur to [nazariosoftwarellc@gmail.com](mailto:nazariosoftwarellc+bnt@gmail.com) and I will do my best to help.
 
