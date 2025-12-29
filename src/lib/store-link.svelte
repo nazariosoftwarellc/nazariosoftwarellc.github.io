@@ -12,7 +12,7 @@
 			return 'apple';
 		}
 		return 'chrome';
-	})
+	});
 
 	const storeName = $derived.by(() => {
 		if (linkType === 'chrome') {
@@ -25,7 +25,7 @@
 			return 'App Store';
 		}
 		return 'Store';
-	})
+	});
 
 	const title = $derived.by(() => `Get it on ${storeName}`);
 
@@ -44,18 +44,18 @@
 </script>
 
 <div>
-	<a {href} target="_blank" title={title}>
+	<a {href} target="_blank" {title}>
 		<img src={imageSrc} alt={title} />
 	</a>
 </div>
 
 <style lang="scss">
-  @use '../variables';
+	@use '../variables';
 
-  div {
-    height: variables.$app-store-badge-height;
-    width: auto;
-  }
+	div {
+		height: variables.$app-store-badge-height;
+		width: auto;
+	}
 
 	img {
 		height: 100%;

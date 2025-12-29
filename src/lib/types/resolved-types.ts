@@ -1,7 +1,7 @@
 import type { NZSAppList } from './app-list';
 
 export type ResolvedPost = {
-  post: string;
+	post: string;
 };
 
 export type ResolvedAppPost = ResolvedPost & {
@@ -18,4 +18,4 @@ export type ResolvedAppPost = ResolvedPost & {
 
 export type ResolvedAppList = {
 	appList: NZSAppList;
-}
+};

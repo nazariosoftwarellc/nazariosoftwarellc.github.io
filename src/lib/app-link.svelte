@@ -1,9 +1,5 @@
 <script lang="ts">
-	let {
-		name,
-		id,
-		description,
-	}: { name: string; id: string; description: string; } = $props();
+	let { name, id, description }: { name: string; id: string; description: string } = $props();
 
 	let iconSrc = $derived(`/img/${id}-icon.webp`);
 	let href = $derived(`/apps/${id}`);

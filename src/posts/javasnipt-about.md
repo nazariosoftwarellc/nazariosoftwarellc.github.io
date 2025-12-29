@@ -1,6 +1,6 @@
 ## Block JavaScript in Safari with JavaSnipt
 
-The web has too many popups and third-party scripts. It wasn't designed to respect your privacy, battery life, data cap or phone-sized screen. Take back control with JavaSnipt. 
+The web has too many popups and third-party scripts. It wasn't designed to respect your privacy, battery life, data cap or phone-sized screen. Take back control with JavaSnipt.
 
 This app blocks JavaScript on any website. That means no more:
 
@@ -9,11 +9,11 @@ This app blocks JavaScript on any website. That means no more:
 - Cookie requests
 - Wasted megabytes of third-party JavaScript libraries
 
-When you encounter a website with too much JavaScript, handling it is simple. On iOS, tap Share → JavaSnipt → refresh. On macOS, click the JavaSnipt toolbar button → hand icon → refresh. Voilà! No more interactivity. 
+When you encounter a website with too much JavaScript, handling it is simple. On iOS, tap Share → JavaSnipt → refresh. On macOS, click the JavaSnipt toolbar button → hand icon → refresh. Voilà! No more interactivity.
 
-Alternatively, you can use JavaSnipt to block JavaScript on *all* websites and allow only sites you trust. It's up to you!
+Alternatively, you can use JavaSnipt to block JavaScript on _all_ websites and allow only sites you trust. It's up to you!
 
-Some sites, like YouTube, will not work with JavaScript blocked. That's why JavaSnipt targets only sites you select. 
+Some sites, like YouTube, will not work with JavaScript blocked. That's why JavaSnipt targets only sites you select.
 
 ### Purchasing
 
@@ -23,7 +23,7 @@ JavaSnipt contains no in-app purchases. Buy once and unlock forever.
 
 ### Privacy
 
-JavaSnipt stores your data in a private iCloud store connected to your Apple ID. 
+JavaSnipt stores your data in a private iCloud store connected to your Apple ID.
 
 It does not use any:
 
@@ -38,9 +38,9 @@ JavaSnipt is built from the ground-up as a native Safari extension. It does not 
 
 ### How it works
 
-JavaSnipt blocks specified website domains from loading any additional JS files. Unless a website puts their JS inline in the HTML, which is uncommon, it cannot use any JavaScript. 
+JavaSnipt blocks specified website domains from loading any additional JS files. Unless a website puts their JS inline in the HTML, which is uncommon, it cannot use any JavaScript.
 
-This is the best solution I found since there is no way to disable JavaScript at the browser level per-domain. 
+This is the best solution I found since there is no way to disable JavaScript at the browser level per-domain.
 
 ### What's with the crab?
 

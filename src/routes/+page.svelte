@@ -5,7 +5,7 @@
 	import type { ResolvedAppList } from '$lib/types/resolved-types';
 	import '../_variables.scss';
 
-	const {data}: {data: ResolvedAppList} = $props()
+	const { data }: { data: ResolvedAppList } = $props();
 </script>
 
 <header style:--bg-image="url('/img/site-splash.png')">

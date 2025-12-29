@@ -1,9 +1,9 @@
 <script lang="ts">
 	import AppLink from './app-link.svelte';
-	import {asset} from '$app/paths';
+	import { asset } from '$app/paths';
 	import type { NZSAppList } from './types/app-list';
 
-	const {appList}: {appList: NZSAppList} = $props()
+	const { appList }: { appList: NZSAppList } = $props();
 </script>
 
 <div class="outlined-section">

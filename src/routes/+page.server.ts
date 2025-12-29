@@ -4,7 +4,7 @@ import type { ResolvedAppList } from '$lib/types/resolved-types';
 
 export const prerender = true;
 
-export async function load({fetch}): Promise<ResolvedAppList> {
+export async function load({ fetch }): Promise<ResolvedAppList> {
 	const appList: NZSAppList = await PostLoader.loadAppList(fetch);
 	return { appList };
 }

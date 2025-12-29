@@ -1,13 +1,13 @@
 @import '@exampledev/new.css/new.css';
 
 :root {
-  --mobile-width: 480px;
+	--mobile-width: 480px;
 }
 
 body {
-  max-width: unset;
+	max-width: unset;
 }
 
 article {
-  margin: auto;
+	margin: auto;
 }
