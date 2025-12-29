@@ -14,7 +14,7 @@
 	<meta name="description" content="Hand-raised, free-range browser extensions" />
 </svelte:head>
 
-<header style:--bg-image="url('/img/site-splash.png')">
+<header>
 	<div>
 		<h1>{SITE_TITLE}</h1>
 		<h2>Hand-raised, free-range browser extensions</h2>
@@ -37,7 +37,7 @@
 
 	header {
 		height: 700px;
-		background-image: var(--bg-image);
+		background-image: url('/img/site-splash.png');
 		background-position: center;
 
 		h1,
