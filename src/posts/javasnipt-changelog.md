@@ -2,6 +2,17 @@
 
 ### iOS
 
+#### 2.1.0 (Jan. 12, 2026)
+
+- New Liquid Glass layout with bottom search bar and **Add Site** button
+- New app icon with dark and monochrome variants
+- New **Settings** page with help links
+- New button to remove duplicate sites
+- Fixes bug where app title was not visible
+- Fixes bug where autocorrect was turned on for search
+- Requires iOS 26
+- Adds links to [other Nazario Software apps](/). Check them out!
+
 #### 2.0.1 (2024)
 
 - Fixes a bug where sites added from the share extension did not appear in the app until the app was restarted
