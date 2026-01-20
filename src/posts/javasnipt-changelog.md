@@ -2,7 +2,7 @@
 
 ### iOS
 
-#### 2.1.0 (Jan. 12, 2026)
+#### 2.1.0 (Jan. 19, 2026)
 
 - New Liquid Glass layout with bottom search bar and **Add Site** button
 - New app icon with dark and monochrome variants
@@ -76,6 +76,11 @@ Fixes a bug where the share extension would not appear on iOS 14.0. The app now 
 - Share popup will tell you if the blocker is disabled
 
 ### macOS
+
+#### 1.4.3 (Jan. 16, 2026)
+
+- The **Delete** sites buttons are disabled when no sites are selected
+- The other NZS apps list shows app icons
 
 #### 1.4.2 (November 2025)
 
