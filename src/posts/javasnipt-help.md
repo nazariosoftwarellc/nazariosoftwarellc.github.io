@@ -20,15 +20,17 @@ Unfortunately, no. Apple offers a pretty limited set of options for Safari conte
 
 #### How do I enable the JavaSnipt content blocker?
 
-**macOS**: Open the JavaSnipt app. Click the red ! and click the button in the popover to open Safari's extension settings. Check the box next to "JavaSnipt Blocker."
+**iOS**: Open the iOS Settings app. Go to Safari → Extensions and enable JavaSnipt. If you are on iOS 14 or below, go to iOS Settings → Safari → Content Blockers.
 
-**iOS**: Open the iOS Settings app. Tap Safari → Extensions and tap the toggle to the right of JavaSnipt. If you are on iOS 14 or below, go to iOS Settings → Safari → Content Blockers.
+**macOS**: Go to Safari → Settings → Extensions and enable JavaSnipt Blocker. I would also recommend enabling JavaSnipt UI for adding sites faster.
 
 #### Can I block JavaScript on all sites _except_ the ones I want?
 
-Yes! Open the JavaSnipt app and tap "Allow JS on Listed Sites." JavaScript will not run on any site except those listed in JavaSnipt.
+Yes!
 
-If you tap "Block JS on Listed Sites," JavaSnipt will block JS on the listed sites.
+**iOS** Open the JavaSnipt app and tap Settings. Turn off the toggle labeled "Block JavaScript on Added Sites." JavaScript will not run on any site except those listed in JavaSnipt.
+
+**macOS**: Open the JavaSnipt app and go to the menu bar → File → Blocking Mode → Allow JavaScript Only on Added Sites.
 
 #### How do I enable iCloud to sync between my devices?
 
@@ -48,7 +50,7 @@ If JavaSnipt cannot store your sites in iCloud, it will store them locally. When
 
 #### Can you support older OSes?
 
-JavaSnipt uses SwiftUI features introduced in macOS Big Sur and iOS 13, respectively. My AppKit and UIKit skills are not good enough to backport them to older OSes 😅.
+JavaSnipt uses SwiftUI features introduced in macOS Big Sur and iOS 26, respectively. My AppKit and UIKit skills are not good enough to backport them to older OSes 😅.
 
 #### Can I use this with AppleScript?
 
@@ -71,7 +73,15 @@ end repeat
 tell application JavaSnipt to quit
 ```
 
-### Known issues
+### Known Issues
+
+#### JavaSnipt for iOS has a large white or black background when adding a site from the share extension
+
+A [known bug](https://developer.apple.com/forums/thread/806117) with iOS 26, unfortunately. No known workaround. I will update JavaSnipt to fix this as soon as Apple releases a fix.
+
+#### JavaSnipt for Mac doesn't block JS when a site is added
+
+This is a known bug that I am still working to reproduce. Disable and enable the JS content blocker extension and the site will be blocked.
 
 #### The JavaSnipt icon doesn't appear in Mac Safari on Sierra
 
