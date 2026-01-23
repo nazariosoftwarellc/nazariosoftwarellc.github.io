@@ -77,9 +77,12 @@ Fixes a bug where the share extension would not appear on iOS 14.0. The app now 
 
 ### macOS
 
-#### 1.4.3 (Jan. 16, 2026)
+#### 1.4.3 (Jan. 23, 2026)
 
+- Adds a **Delete Duplicate Sites...** button to the menu bar
 - The **Delete** sites buttons are disabled when no sites are selected
+- Updates **Allow**/**Block** button labels to match iOS app
+- Fixes bug where adding a site while searching crashed app
 - The other NZS apps list shows app icons
 
 #### 1.4.2 (November 2025)
