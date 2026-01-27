@@ -1,5 +1,11 @@
 ## Beautiful New Tabs Changelog
 
+### 2.0.4 (Jan. 27, 2026)
+
+- Adds icons next to the list of Nazario Software apps
+- Formats onboarding steps for iOS
+- Requires macOS 12.4
+
 ### 2.0.3 (November 2025)
 
 - Adds links to [other Nazario Software apps](/). Check them out!
