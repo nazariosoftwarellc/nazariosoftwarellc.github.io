@@ -2,13 +2,13 @@
 
 ### 2.0.4 (Jan. 27, 2026)
 
-- Adds icons next to the list of Nazario Software apps
-- Formats onboarding steps for iOS
-- Requires macOS 12.4
+- **iOS**: Formats onboarding steps
+- **Mac**: Adds icons next to the list of Nazario Software apps
+- **Mac**: Requires macOS 12.4
 
 ### 2.0.3 (November 2025)
 
-- Adds links to [other Nazario Software apps](/). Check them out!
+- **Mac**: Adds links to [other Nazario Software apps](/). Check them out!
 
 ### 2.0.2 (2023)
 

@@ -3,12 +3,12 @@
 ### 1.0.3 (Jan. 27, 2026)
 
 - Adds links to [other Nazario Software apps](/). Check them out!
-- Adds **About** button to container app (Safari)
-- Requires macOS 12.4 (Safari)
+- **Safari (Mac)** Adds **About** button to container app
+- **Safari (Mac)**: Requires macOS 12.4
 
 ### 1.0.2 (2023)
 
-- Adds donation option to settings (Chrome & Firefox)
+- **Chrome & Firefox**: Adds donation option to settings
 
 ### 1.0.1 (2023)
 
