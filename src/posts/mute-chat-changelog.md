@@ -1,5 +1,9 @@
 ## Mute Chat for BoardGameArena Changelog
 
+### 1.0.4 (Jul. 5, 2026)
+
+- Correctly hides table chats for BGA's new table layout
+
 ### 1.0.3 (Jan. 27, 2026)
 
 - Adds links to [other Nazario Software apps](/). Check them out!
