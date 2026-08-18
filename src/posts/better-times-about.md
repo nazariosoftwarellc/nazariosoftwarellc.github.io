@@ -13,6 +13,7 @@ John Gruber, [Daring Fireball](https://daringfireball.net/2026/03/your_frustrati
 - Newsletter signup boxes
 - Buttons telling you to "Share the Times"
 - Privacy-invasive tracking
+- The "We noticed multiple devices using this subscription" banner that makes you dig a code out of your email. God forbid you read the news on your phone _and_ laptop.
 
 Better Times lets you enjoy the NYT's award-winning journalism with a web experience crafted to respect the user.
 
