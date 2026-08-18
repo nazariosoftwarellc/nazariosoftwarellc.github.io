@@ -1,6 +1,6 @@
 ## Read the news without distractions with Better Times
 
-Are you a paying subscriber to the New York Times? Now you can read it the way you deserve. **Better Times** is a browser extension that takes `nytimes.com` and hides:
+Do you pay for the New York Times? Now you can read it in peace. **Better Times** is a browser extension that takes `nytimes.com` and hides:
 
 - Autoplaying videos
 - Family plan upsells
@@ -9,14 +9,24 @@ Are you a paying subscriber to the New York Times? Now you can read it the way y
 - Newsletter signup boxes
 - Buttons telling you to "Share the Times"
 
-Read the Times the way _you_ want: in a browser, in peace.
+Enjoy the NYT's award-winning journalism with a web experience carefully crafted to respect the user.
 
-### What Better Times doesn't do
+### Features we won't do
 
 **This extension does not skip the Times paywall**. In this house, we support independant journalism.
 
-It also does not block ads, because that's complicated. Needs a real adblocker. I recommend:
+**This extension does not block ads**. Ad-blocking is technically complex and needs a dedicated extension. If that's something you're interested in, consider:
 
-- For Chrome: [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
-- For Firefox: [uBlock Origin](https://ublockorigin.com)
-- For Safari: [wBlock](https://apps.apple.com/us/app/wblock/id6746388723?itscg=30200&itsct=apps_box_badge&mttnsubad=6746388723)
+- [uBlock Origin][1] ([Firefox][2], [Edge][3], [Brave][4], [Opera][5])
+- uBlock Origin Lite ([Chrome][6], [Safari][7])
+- [wBlock][8] ([Safari][9])
+
+[1]: https://ublockorigin.com
+[2]: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+[3]: https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak
+[4]: https://www.reddit.com/r/brave_browser/comments/1ly8iqr/how_do_i_install_ublock_origin_on_brave/?rdt=42156
+[5]: https://addons.opera.com/en/extensions/details/ublock/
+[6]: https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh
+[7]: https://apps.apple.com/us/app/ublock-origin-lite/id6745342698
+[8]: https://github.com/0xCUB3/wBlock
+[9]: https://apps.apple.com/us/app/wblock/id6746388723
