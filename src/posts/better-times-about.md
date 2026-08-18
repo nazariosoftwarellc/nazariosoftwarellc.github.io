@@ -8,8 +8,9 @@ Do you pay for the New York Times? Now you can read it in peace. **Better Times*
 - Banners telling you to "Open in the app"
 - Newsletter signup boxes
 - Buttons telling you to "Share the Times"
+- Privacy-invasive tracking
 
-Enjoy the NYT's award-winning journalism with a web experience carefully crafted to respect the user.
+Better Times lets you enjoy the NYT's award-winning journalism with a web experience crafted to respect the user.
 
 ### Features we won't do
 
