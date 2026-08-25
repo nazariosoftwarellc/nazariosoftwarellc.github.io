@@ -1,6 +1,10 @@
 import PostLoader from '$lib/post-loader';
 import type { ResolvedAppPost } from '$lib/types/resolved-types.js';
 
+export function entries() {
+	return [{ appId: 'better-times', postType: 'purchase' }];
+}
+
 export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 	const { appId, postType } = params;
 	const postFilename = PostLoader.getPostFilenameFromType(appId, postType);
