@@ -5,7 +5,7 @@ export type ResolvedPost = {
 };
 
 export type ResolvedAppPost = ResolvedPost & {
-	postType: 'about' | 'privacy' | 'support' | 'changelog' | 'credits' | 'purchase';
+	postType: 'about' | 'privacy' | 'support' | 'changelog' | 'credits';
 	appId: string;
 	appName: string;
 	bannerImageSrc?: string;
