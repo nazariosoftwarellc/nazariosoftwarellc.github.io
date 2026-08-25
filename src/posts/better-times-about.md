@@ -7,21 +7,24 @@ John Gruber, [Daring Fireball](https://daringfireball.net/2026/03/your_frustrati
 **Better Times** is a browser extension to improve the New York Times website. It hides:
 
 - Autoplaying videos
-- Family plan upsells
 - Nags to download the app
-- Banners telling you to "Open in the app"
+- "Open in the app" banners
+- "Share the Times" buttons
 - Newsletter signup boxes
-- Buttons telling you to "Share the Times"
+- Share buttons that block content
+- Comments
 - Privacy-invasive tracking
-- The "We noticed multiple devices using this subscription" banner that makes you dig a code out of your email. God forbid you read the news on your phone _and_ laptop.
+- Modals asking for your sports interests
+- Family plan upsells every time you log in
+- The "We noticed multiple devices using this subscription" banner that makes you dig a code out of your email (God forbid you read the news on your phone _and_ laptop)
 
 Better Times lets you enjoy the NYT's award-winning journalism with a web experience crafted to respect the user.
 
 ### Features we won't do
 
-**This extension does not skip the Times paywall**. In this house, we support independant journalism.
+**This extension does not skip the Times paywall**. I support independant journalism, and you should too.
 
-**This extension does not block ads**. I don't enjoy ads either, but they are also how the NYT makes money. If you still want to block them, use one of these extensions alongside Better Times:
+**This extension does not block ads**. I don't love ads, but they're are also how the NYT makes money. If you still want to block them, use one of these extensions alongside Better Times:
 
 - [uBlock Origin][1] ([Firefox][2], [Edge][3], [Brave][4], [Opera][5])
 - uBlock Origin Lite ([Chrome][6], [Safari][7])
@@ -36,3 +39,11 @@ Better Times lets you enjoy the NYT's award-winning journalism with a web experi
 [7]: https://apps.apple.com/us/app/ublock-origin-lite/id6745342698
 [8]: https://github.com/0xCUB3/wBlock
 [9]: https://apps.apple.com/us/app/wblock/id6746388723
+
+### Options
+
+Better Times users can toggle blocking for:
+
+- Autoplay videos
+- Comments
+- Share buttons

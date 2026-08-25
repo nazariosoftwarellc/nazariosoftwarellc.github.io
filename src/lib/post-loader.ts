@@ -45,6 +45,8 @@ class PostLoader {
 				return `${appId}-changelog`;
 			case 'credits':
 				return `${appId}-credits`;
+			case 'purchase':
+				return `${appId}-purchase`;
 			default:
 				throw new Error(`Unknown post type: ${postType}`);
 		}
