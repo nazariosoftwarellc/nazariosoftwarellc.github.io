@@ -36,3 +36,14 @@ If you buy the Safari version, you unlock the:
 - Firefox version
 
 (This is due to App Store rules).
+
+#### Unlocking Better Times after purchasing in Safari
+
+If you bought the Safari version:
+
+1. Open the Better Times app
+2. Tap or click the "Other Browsers" button
+3. Enter your email address and click "Save"
+4. Install Better Times on Chrome or Firefox
+5. Click "Purchase" in the other browser
+6. Enter the same email and click "Restore"
