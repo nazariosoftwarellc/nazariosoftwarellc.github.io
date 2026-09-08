@@ -1,11 +1,7 @@
 ## Better Times Privacy Policy
 
-Better Times collects no information about its users. It does not store or share any data with anyone.
+If you purchase Better Times on Chrome or Firefox, your email will be recorded and used to authenticate your purchase.
 
-### Third-party code included in Better Times
+If you purchase Better Times from Safari, you may optionally provide your email to use the extension on other browsers.
 
-No third-party code runs on your device.
-
-### Third-party code used to build Better Times
-
-No third-party code is used to build Better Times.
+Your email will not be shared or contacted. It is used purely for identification purposes.

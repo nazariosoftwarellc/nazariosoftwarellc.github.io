@@ -20,7 +20,7 @@ John Gruber, [Daring Fireball](https://daringfireball.net/2026/03/your_frustrati
 
 Better Times does what simple content blockers can't - carefully edit the NYT website to provide the best user experience. (You don't want to know how much work it was to block those autoplaying videos!)
 
-**This extension does not skip the Times paywall**. I support independant journalism, and you should too.
+**This extension does not skip the Times paywall**. I support independent journalism, and you should too.
 
 **This extension does not block ads**. Blocking ads is complicated! It needs a dedicated extension. If you prefer not to see ads, use one of these alongside Better Times:
 
