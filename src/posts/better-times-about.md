@@ -18,9 +18,11 @@ John Gruber, [Daring Fireball](https://daringfireball.net/2026/03/your_frustrati
 - Family plan upsells every time you log in
 - The "We noticed multiple devices using this subscription" banner that makes you dig a code out of your email (God forbid you read the news on your phone _and_ laptop)
 
+Better Times does what simple content blockers can't - carefully edit the NYT website to provide the best user experience. (You don't want to know how much work it was to block those autoplaying videos!)
+
 **This extension does not skip the Times paywall**. I support independant journalism, and you should too.
 
-**This extension does not block ads**. Blocking ads is complicated! It needs a dedicated blocker. If you prefer not to see ads, use one of these extensions alongside Better Times:
+**This extension does not block ads**. Blocking ads is complicated! It needs a dedicated extension. If you prefer not to see ads, use one of these alongside Better Times:
 
 - [uBlock Origin][1] ([Firefox][2], [Edge][3], [Brave][4], [Opera][5])
 - uBlock Origin Lite ([Chrome][6], [Safari][7])
