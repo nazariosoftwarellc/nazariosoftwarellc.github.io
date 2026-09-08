@@ -4,7 +4,7 @@ John Gruber, [Daring Fireball](https://daringfireball.net/2026/03/your_frustrati
 
 > Many of these news websites intersperse bullshit like requests to subscribe to their newsletters, or links to other articles on their site — often totally unrelated to the one you’re trying to read — every few paragraphs. And the fucking autoplay videos, jesus.
 
-**Better Times** is a browser extension that lets you enjoy the New York Times' award-winning journalism with a web experience crafted to respect the user. Better Times blocks:
+**Better Times** is a hand-crafted browser extension that gives New York Times' award-winning journalism a web experience crafted to respect the user. Better Times blocks:
 
 - Autoplaying videos
 - Nags to download the app
