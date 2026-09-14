@@ -54,3 +54,5 @@ If you buy the Safari version, you unlock the:
 - Firefox version
 
 (This is due to App Store rules).
+
+-30-
