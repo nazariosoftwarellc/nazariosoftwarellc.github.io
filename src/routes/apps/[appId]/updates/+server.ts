@@ -26,8 +26,17 @@ export const GET: RequestHandler = ({ params, url }) => {
 		const releaseUrl = `${appUrl}/releases/${release.version}.zip`;
 		const item = channel.ele('item');
 		item.ele('title').txt(`Version ${release.version}`).up();
-		item.ele('link').txt(releaseUrl).up();
+		item.ele('link').txt(appUrl).up();
 		item.ele('sparkle:version').txt(release.version).up();
+		item.ele('sparkle:releaseNotesLink').txt(`${appUrl}/changelog`).up();
+		item.ele('pubDate').txt(release.pubDate.toDateString()).up();
+		item
+			.ele('enclosure', {
+				url: releaseUrl,
+				'sparkle:version': release.version,
+				type: 'application/octet-stream'
+			})
+			.up();
 	}
 
 	const xml = channel.doc().end({ prettyPrint: true });
