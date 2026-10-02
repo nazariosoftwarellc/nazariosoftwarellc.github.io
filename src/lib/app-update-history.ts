@@ -1,6 +1,7 @@
 export type AppRelease = {
 	version: string;
 	pubDate: Date;
+	headingId: string;
 };
 
 export type AppUpdateHistory = {
@@ -14,7 +15,8 @@ export const appUpdateHistories: Record<string, AppUpdateHistory> = {
 		releases: [
 			{
 				version: '1.0.1',
-				pubDate: new Date()
+				pubDate: new Date(),
+				headingId: '101datetbd'
 			}
 		]
 	}

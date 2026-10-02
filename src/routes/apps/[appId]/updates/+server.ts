@@ -29,7 +29,7 @@ export const GET: RequestHandler = ({ params, url }) => {
 		item.ele('title').txt(`Version ${release.version}`).up();
 		item.ele('link').txt(appUrl).up();
 		item.ele('sparkle:version').txt(release.version).up();
-		item.ele('sparkle:releaseNotesLink').txt(`${appUrl}/changelog`).up();
+		item.ele('sparkle:releaseNotesLink').txt(`${appUrl}/changelog#${release.headingId}`).up();
 		item.ele('pubDate').txt(release.pubDate.toDateString()).up();
 		item
 			.ele('enclosure', {
