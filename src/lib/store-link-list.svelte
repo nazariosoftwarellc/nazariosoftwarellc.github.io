@@ -9,6 +9,9 @@
 	{#if downloadLinks.appleStoreUrl}
 		<StoreLink href={downloadLinks.appleStoreUrl} />
 	{/if}
+	{#if downloadLinks.safariUrl}
+		<StoreLink href={downloadLinks.safariUrl} />
+	{/if}
 	{#if downloadLinks.chromeStoreUrl}
 		<StoreLink href={downloadLinks.chromeStoreUrl} />
 	{/if}

@@ -32,7 +32,7 @@ export async function load({ fetch, params }): Promise<ResolvedAppPost> {
 			chromeStoreUrl: appMetadata.chromeStoreUrl,
 			firefoxStoreUrl: appMetadata.firefoxStoreUrl,
 			githubUrl: appMetadata.githubUrl,
-			directUrl: appMetadata.directUrl
+			safariUrl: appMetadata.safariUrl
 		}
 	};
 }

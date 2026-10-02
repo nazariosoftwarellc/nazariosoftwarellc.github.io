@@ -8,5 +8,5 @@ export type NZSAppList = Array<{
 	chromeStoreUrl?: string;
 	firefoxStoreUrl?: string;
 	githubUrl?: string;
-	directUrl?: string;
+	safariUrl?: string;
 }>;
