@@ -24,6 +24,7 @@ export const GET: RequestHandler = ({ params, url }) => {
 
 	for (const release of updateHistory.releases) {
 		const releaseUrl = `${appUrl}/releases/${release.version}.zip`;
+
 		const item = channel.ele('item');
 		item.ele('title').txt(`Version ${release.version}`).up();
 		item.ele('link').txt(appUrl).up();

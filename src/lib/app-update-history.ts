@@ -11,6 +11,11 @@ export type AppUpdateHistory = {
 export const appUpdateHistories: Record<string, AppUpdateHistory> = {
 	'better-times': {
 		name: 'Better Times',
-		releases: [{ version: '1.0.1', pubDate: new Date() }]
+		releases: [
+			{
+				version: '1.0.1',
+				pubDate: new Date()
+			}
+		]
 	}
 };
