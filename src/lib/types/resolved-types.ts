@@ -14,6 +14,7 @@ export type ResolvedAppPost = ResolvedPost & {
 		chromeStoreUrl?: string;
 		firefoxStoreUrl?: string;
 		githubUrl?: string;
+		directUrl?: string;
 	};
 };
 

@@ -10,7 +10,8 @@
 		"name": "Better Times",
 		"id": "better-times",
 		"href": "https://www.nazariosoftware.com/apps/better-times/about",
-		"description": "Read the news without distractions"
+		"description": "Read the news without distractions",
+		"directUrl": "https://www.nazariosoftware.com/apps/better-times/releases/1.0.1.zip"
 	},
 	{
 		"name": "Incogmeeto",
