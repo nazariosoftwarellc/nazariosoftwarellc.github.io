@@ -44,6 +44,7 @@ export const GET: RequestHandler = ({ params, url }) => {
 
 	return new Response(xml, {
 		headers: {
+			'access-control-allow-origin': '*',
 			'content-type': 'application/xml; charset=utf-8'
 		}
 	});
