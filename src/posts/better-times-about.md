@@ -42,17 +42,6 @@ Better Times does what simple content blockers can't - carefully edit the NYT we
 
 Better Times is free to use for 14 days. After that, it costs $5 USD. No subscriptions or ads.
 
-If you buy the app on Chrome or Firefox, you unlock the:
-
-- Chrome version
-- Firefox version
-
-If you buy the Safari version, you unlock the:
-
-- Safari version
-- Chrome version
-- Firefox version
-
-(This is due to App Store rules).
+If you buy the extension on any browser, you unlock it for all of them. It supports Chrome, Firefox and Safari.
 
 -30-
