@@ -14,9 +14,9 @@ export const appUpdateHistories: Record<string, AppUpdateHistory> = {
 		name: 'Better Times',
 		releases: [
 			{
-				version: '1.0.1',
+				version: '1.0.2',
 				pubDate: new Date(),
-				headingId: '101datetbd'
+				headingId: '102oct22026'
 			}
 		]
 	}
